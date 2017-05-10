@@ -1,0 +1,122 @@
+Antwoord
+<script>
+  function initMap() {
+    //Coordinates of the right answer
+    var coor1 = {lat: 52.0863, lng: 5.12241}
+
+    $(document).ready(function () {
+
+      //Insert a div where the map can be placed
+      $('.answer-container').append('<div id=map >This is some text</div>')
+
+      function googleMapAnsToCoord(mapInfo) {
+        var coord = mapInfo.split(';').slice(0, 2).map(coord = > parseFloat(coord)
+      )
+        return {lat: coord[0], lng: coord[1]}
+      }
+
+      //Coordinates of previous ansswer
+      var coor2 = googleMapAnsToCoord('{INSERTANS:256952X889X11231}')
+
+      $('#answer256952X889X11436').hide();
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 7,
+        center: coor1
+      });
+
+      //A line between the two coordinates
+      var flightPlanCoordinates = [
+        coor1, coor2
+      ];
+      var flightPath = new google.maps.Polyline({
+        path: flightPlanCoordinates,
+        geodesic: true,
+        strokeColor: '#FF0000',
+        strokeOpacity: 1.0,
+        strokeWeight: 2
+      });
+
+      flightPath.setMap(map);
+
+      //Marker for the right answer
+      var marker = new google.maps.Marker({
+        position: coor1,
+        icon: "http://maps.google.com/mapfiles/ms/icons/green-dot.png",
+        map: map,
+        title: 'coor1'
+      });
+
+      //Marker for your answer
+      var marker2 = new google.maps.Marker({
+        position: coor2,
+        map: map,
+        title: 'coor2'
+      });
+
+      function degreesToRadians(degrees) {
+        return degrees * Math.PI / 180;
+      }
+
+      function distanceInKmBetweenEarthCoordinates(lat1, lon1, lat2, lon2) {
+        var earthRadiusKm = 6371;
+
+        var dLat = degreesToRadians(lat2 - lat1);
+        var dLon = degreesToRadians(lon2 - lon1);
+
+        lat1 = degreesToRadians(lat1);
+        lat2 = degreesToRadians(lat2);
+
+        var a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+          Math.sin(dLon / 2) * Math.sin(dLon / 2) * Math.cos(lat1) * Math.cos(lat2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        return earthRadiusKm * c;
+      }
+
+      var dist = Math.round(distanceInKmBetweenEarthCoordinates(coor1.lat, coor1.lng, coor2.lat, coor2.lng))
+      $('.answer-container').prepend('<div> Het verschil is: ' + dist + ' km</div>')
+
+      //InfoWindows for the answers
+      var infowindow1 = new google.maps.InfoWindow({
+        content: 'Correct answer',
+      });
+
+      var infowindow2 = new google.maps.InfoWindow({
+        content: 'Your answer',
+      });
+
+      google.maps.event.addListener(marker, 'mouseover', function () {
+        infowindow1.open(map, this);
+      });
+
+      google.maps.event.addListener(marker2, 'mouseover', function () {
+        infowindow2.open(map, this);
+      });
+
+      google.maps.event.addListener(marker, 'mouseout', function () {
+        infowindow1.close();
+      });
+
+      google.maps.event.addListener(marker2, 'mouseout', function () {
+        infowindow2.close();
+      });
+
+
+    });
+
+
+  }
+
+
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1J6OMCHT4vJaDRKUdatOG_Fag2_D2vtA&callback=initMap">
+</script>
+<style type="text/css">#map {
+  width: 100%;
+  height: 500px;
+}
+
+.answer-container {
+  padding-top: 0px;
+}
+</style>
