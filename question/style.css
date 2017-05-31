@@ -1,0 +1,10 @@
+.answer-container{
+    padding-top: 0em;
+}
+.textarea{
+    /*display: None;*/
+}
+#map {
+    width: 100%;
+    height: 500px;
+}
