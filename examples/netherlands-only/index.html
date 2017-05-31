@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>NL only</title>
+
+    <script src="netherland-json.js"></script>
+
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+         * element that contains the map. */
+        #map {
+            height: 100%;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    function initMap() {
+        function initializePolygons(provincies, map) {
+            var polygons = [];
+            for (prov in provincies) {
+                for (i in provincies[prov]) {
+                    var paths = provincies[prov][i].map(obj => {
+                        return {lat: parseFloat(obj.lat), lng: parseFloat(obj.lng)};
+                    });
+                    var poly = new google.maps.Polygon({
+                        paths: paths,
+                        strokeColor: '#FF0000',
+                        strokeOpacity: 0,
+                        strokeWeight: 2,
+                        fillColor: '#FF0000',
+                        fillOpacity: 0.35
+                    });
+
+                    poly.setMap(map);
+                    polygons.push(poly);
+
+                }
+
+
+            }
+            return polygons;
+        }
+
+        function isInside(polygons, coordinates){
+            for(i in polygons){
+                var poly = polygons[1];
+                if(google.maps.geometry.poly.containsLocation(coordinates, poly)){
+                    return true;
+                }
+
+            }
+            return false;
+        }
+
+        function addEvents(polygons) {
+            var marker;
+            for (i in polygons) {
+                var poly = polygons[i];
+                poly.addListener('click', (event) => {
+                    lat = event.latLng.lat();
+                    lng = event.latLng.lng();
+                    if (!marker) {
+                        marker = new google.maps.Marker({
+                            position: {lat: lat, lng: lng},
+                            map: map,
+                            title: 'Your answer!',
+                            draggable: true
+                        });
+
+                        marker.addListener("dragend", (e) => {
+                            if(!isInside(polygons, e.latLng)){
+                                console.log("not inside")
+                                marker.setMap(null);
+                                marker = null;
+                            }
+                        })
+                    } else {
+                        var latlng = new google.maps.LatLng(lat, lng);
+                        marker.setPosition(latlng);
+                    }
+                })
+            }
+
+        }
+
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 5,
+            center: {lat: 53.37364919, lng: 6.18444673},
+            mapTypeId: 'terrain'
+        });
+
+        var polygons = initializePolygons(nlPoly, map);
+        addEvents(polygons);
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1J6OMCHT4vJaDRKUdatOG_Fag2_D2vtA&callback=initMap">
+</script>
+</body>
+</html>
