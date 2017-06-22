@@ -1,8 +1,9 @@
 settings = {
-    mapColor: "#8f8986",
+    mapColor: "#0000ff",
     correctAnswerColor: "green",
     yourAnswerColor: "red",
-    lineColor: "#FF0000"
+    lineColor: "#FF0000",
+	opacity: 0
 };
 
 

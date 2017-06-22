@@ -8,10 +8,10 @@ function initializePolygons(provincies, map) {
             var poly = new google.maps.Polygon({
                 paths: paths,
                 strokeColor: settings.mapColor,
-                strokeOpacity: 0,
+                strokeOpacity: 1,
                 strokeWeight: 2,
                 fillColor: settings.mapColor,
-                fillOpacity: 0.35
+                fillOpacity: settings.opacity
             });
 
             poly.setMap(map);
@@ -82,9 +82,9 @@ function initializeQuestion(audioRef, autoplay){
         answerContainer.prepend(
             `<h3>Audio</h3> <audio controls ${autoplay?"autoPlay":""}> <source src=${audioRef} type="audio/mp3"> </audio>`)
         var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 5,
-            center: { lat: 53.37364919,
-                lng: 6.18444673 },
+            zoom: 7,
+            center: { lat: 52.059042,
+                lng: 5.470902 },
             mapTypeId: 'terrain'
         });
 

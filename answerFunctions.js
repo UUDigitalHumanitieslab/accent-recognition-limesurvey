@@ -1,8 +1,10 @@
 function initializeAnswer(correctAnswer, answer, givenAnswer) {
     $('.answer-container').append('<div id="map" ></div>');
     var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 7,
-        center: correctAnswer
+          zoom: 7,
+         center: { lat: 52.059042,
+          lng: 5.470902 },
+           mapTypeId: 'terrain'
     });
 
     drawMarkers(correctAnswer, givenAnswer, map);
