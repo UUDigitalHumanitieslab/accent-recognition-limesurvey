@@ -1,0 +1,18 @@
+Antwoord  <script src="https://dhstatic.hum.uu.nl/dialect-drongo/settings.js"></script> <script src="https://dhstatic.hum.uu.nl/dialect-drongo/answerFunctions.js"></script>
+<link href="https://dhstatic.hum.uu.nl/dialect-drongo/style.css" rel="stylesheet" type="text/css" /> <script>
+	var answerCoordinates = {
+     lat: 52.0863,
+      lng: 5.12241,
+    }
+
+    var answer = "Utrechts Gnoe"
+
+    var questionAnswer = {INSERTANS:256952X1076X12898}
+
+    function initMap(){
+         initializeAnswer(answerCoordinates, answer, questionAnswer);
+    }
+
+</script> <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1J6OMCHT4vJaDRKUdatOG_Fag2_D2vtA&callback=initMap">
+</script>

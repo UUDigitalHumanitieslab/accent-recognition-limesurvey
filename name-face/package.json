@@ -1,0 +1,7 @@
+{
+  "name": "my_package",
+  "version": "1.0.0",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}

@@ -1,0 +1,25 @@
+Waar in nederland komt het geluid vandaan? <script src="https://dhstatic.hum.uu.nl/dialect-drongo/netherland-json.js"></script> <script src="https://dhstatic.hum.uu.nl/dialect-drongo/settings.js"></script> <script src="https://dhstatic.hum.uu.nl/dialect-drongo/questionFunctions.js"></script>
+<link href="https://dhstatic.hum.uu.nl/dialect-drongo/style.css" rel="stylesheet" type="text/css" /> <script>
+
+	//Deze variabelen aanpassen
+	var audioRef = "https://dhstatic.hum.uu.nl/dialect-drongo/cows.ogg" //The reference to the audio file
+  	var autoplay = true; //If the audio should be playing when the question is opened
+	settings = { //The settings for the map appearence
+    mapColor: "#0000ff",
+    lineColor: "#FF0000",
+	opacity: 0,
+    strokeColor: "blue",
+    strokeOpacity: 1,
+    strokeWeight: 0.5,
+    correctAnswerColor: "green",
+    yourAnswerColor: "red",
+    };
+
+
+    function initMap(){
+		initializeQuestion(audioRef, autoplay);
+    }
+
+</script> <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1J6OMCHT4vJaDRKUdatOG_Fag2_D2vtA&callback=initMap">
+</script>
