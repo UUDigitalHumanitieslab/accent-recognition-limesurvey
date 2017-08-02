@@ -1,0 +1,8 @@
+{
+  "scripts/tests/test_limesurvey_generator.py::TestImgGenerator::()::test_generator": true,
+  "scripts/tests/test_limesurvey_generator.py::test_get_input": true,
+  "scripts/tests/test_limesurvey_generator.py::test_get_names_out_of_line": true,
+  "scripts/tests/test_limesurvey_generator.py::test_parse": true,
+  "scripts/tests/test_limesurvey_generator.py::test_parse_names": true,
+  "scripts/tests/test_limesurvey_generator.py::test_parse_three_lines": true
+}

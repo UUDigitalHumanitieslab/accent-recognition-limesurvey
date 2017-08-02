@@ -53,10 +53,10 @@ class TestParser(unittest.TestCase):
         self.path_to_expected = path_to_expected
         self.questions = questions
         self.expected_parsed_structure = expected_parsed_structure
-        self.input = parser.get_input_files(self.data_path)
+        self.input = Parser.get_input_files(self.data_path)
 
     def test_parse(self):
-        result = parser.parse(self.input["names_file_ref"])
+        result = Parser.parse(self.input["names_file_ref"])
         self.assertEqual(self.expected_parsed_structure, result)
 
 
@@ -66,7 +66,7 @@ class TestParser(unittest.TestCase):
 
 
     def test_parse_names(self):
-        result = parser.parse_names(self.input["names_file_ref"])
+        result = Parser.parse_names(self.input["names_file_ref"])
         self.assertEqual(self.questions, result)
 
 
@@ -76,21 +76,21 @@ class TestParser(unittest.TestCase):
             '   Jaap, Bert, Jan\n',
             '   Roderik, Gert, Maurits\n'
         ]
-        result = parser.parse_three_lines(lines, 0)
+        result = Parser.parse_three_lines(lines, 0)
         expected = self.questions['v1']
         self.assertEqual(result, expected)
 
 
     def test_get_names_out_of_line_end_line(self):
-        result = parser.get_names_out_of_line('Daan\n')
+        result = Parser.get_names_out_of_line('Daan\n')
         self.assertEqual(result, ['Daan'])
 
     def test_get_names_out_of_line_multi(self):
-        result = parser.get_names_out_of_line('Daan, Frederik, Bert\n')
+        result = Parser.get_names_out_of_line('Daan, Frederik, Bert\n')
         self.assertEqual(result, ['Daan', 'Frederik', 'Bert'])
 
     def test_get_names_out_of_line_hard(self):
-        result = parser.get_names_out_of_line('    Daan, Frederik, Bert\n')
+        result = Parser.get_names_out_of_line('    Daan, Frederik, Bert\n')
         self.assertEqual(result, ['Daan', 'Frederik', 'Bert'])
 
 
@@ -128,7 +128,7 @@ class TestImgGenerator(unittest.TestCase):
 
 
 
-class TestQuestionJsGenerator(FileComparerTestCase):
+class TestQuestionJsGenerator(FileCompareTestCase):
     def output_test_surveys(self):
         self.compare_surveys(self.path_to_expected, self.path_to_result)
 
@@ -138,7 +138,7 @@ class TestQuestionJsGenerator(FileComparerTestCase):
         self.compare_files(expected_file_ref, result_file_ref)
 
 
-class TestSurveyGenerator(FileComparerTestCase):
+class TestSurveyGenerator(FileCompareTestCase):
     def output_test_js(self):
         self.compare_js(self.path_to_expected, self.path_to_result)
 

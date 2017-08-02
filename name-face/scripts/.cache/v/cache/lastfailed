@@ -1,0 +1,3 @@
+{
+  "tests/test_limesurvey_generator.py::TestJsonGenerator::()::test_generator": true
+}

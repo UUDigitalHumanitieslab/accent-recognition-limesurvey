@@ -1,17 +1,21 @@
 import glob
 from .helper_functions import *
+import shutil
+import os
+import json
+
 
 
 def generate_limesurvey(path_to_data, path_to_result):
     #Get the input
-    input = parser.get_input_files(path_to_data)
+    input = Parser.get_input_files(path_to_data)
     #Parse the input
-    parsed_data = parser.parse(input)
+    parsed_data = Parser.parse(input)
     #Create the output
     pass
 
 
-class parser:
+class Parser:
     @staticmethod
     def parse(file_ref):
         """
@@ -21,7 +25,7 @@ class parser:
             ],
             "questions": v1: {....}} (see parser.parse_names)
         """
-        questions = parser.parse_names(file_ref)
+        questions = Parser.parse_names(file_ref)
         result = {}
         result["files"]= [{"old": "{}.jpg".format(questions[q]["realName"]), "new": "{}.jpg".format(q)} for q in questions]
         result["questions"] = questions
@@ -48,13 +52,12 @@ class parser:
         """
         result = {}
         lines = get_lines(names_file_ref)
-        print(names_file_ref)
         if(len(lines) % 3 != 0):
             raise ValueError("The number of lines is not correct should be a multiple of three but is {}".format(len(lines)))
         i = 0
         question_number = 1
         while(i < len(lines)):
-            question = parser.parse_three_lines(lines, i)
+            question = Parser.parse_three_lines(lines, i)
             result['v{}'.format(question_number)] = question
             i += 3
             question_number += 1
@@ -73,9 +76,9 @@ class parser:
         :return:
         """
         return {
-            "realName": parser.get_names_out_of_line(lines[i])[0],
-            "A": parser.get_names_out_of_line(lines[i +1]),
-            "B": parser.get_names_out_of_line(lines[i +2])
+            "realName": Parser.get_names_out_of_line(lines[i])[0],
+            "A": Parser.get_names_out_of_line(lines[i + 1]),
+            "B": Parser.get_names_out_of_line(lines[i + 2])
         }
 
     @staticmethod
@@ -93,8 +96,19 @@ class parser:
 
 
 class Generator:
-    def generate(self, input_file_refs, output_file_ref):
+    def generate(self, parsing_result, input_location, output_location):
         raise NotImplementedError()
 
+
 class ImgGenerator(Generator):
-    pass
+
+    def generate(self,  parsing_result, input_location, output_location):
+        create_folder(output_location)
+        for file in parsing_result["files"]:
+            shutil.copy("{}/{}".format(input_location, file["old"]), "{}/{}".format(output_location, file["new"]))
+
+class JsonGenerator(Generator):
+    def generate(self, parsing_result, input_location, output_location):
+        with open("{}/questions.js".format(output_location), "w+") as f:
+            f.write("Questions = ")
+            json.dump(parsing_result["questions"], f, indent=2)

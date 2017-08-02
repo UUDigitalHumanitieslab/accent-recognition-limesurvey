@@ -1,0 +1,34 @@
+{
+  "data_path" : "tests/data",
+    "path_to_result" : "tests/result",
+    "path_to_expected" : "tests/expected",
+    "questions" : {
+        "v1": {
+            "A": [
+                "Jaap",
+                "Bert",
+                "Jan"
+            ],
+            "B": [
+                "Roderik",
+                "Gert",
+                "Maurits"
+            ],
+            "realName": "Daan"
+        },
+        "v2": {
+            "A": [
+                "Chloe",
+                "Aneloes",
+                "Anna"
+            ],
+            "B": [
+                "Amber",
+                "Ursula",
+                "Frederike"
+            ],
+            "realName": "Emelie"
+        }
+    }
+
+}

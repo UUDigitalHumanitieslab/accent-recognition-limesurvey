@@ -1,0 +1,14 @@
+{
+  "tests": [
+    { "input": "Daan\n",
+      "expected": "Daan"
+    },
+    { "input": "Daan, Frederik, Bert\n",
+      "expected": ["Daan", "Frederik", "Bert"]
+    },
+    { "input":"     Daan, Frederik, Bert\n",
+      "expected": ["Daan", "Frederik", "Bert"]
+    }
+  ]
+
+}
