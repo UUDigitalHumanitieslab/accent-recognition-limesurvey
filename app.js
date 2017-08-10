@@ -9,7 +9,7 @@ var app = express();
 // Define the port to run on
 app.set('port', 3000);
 
-app.use(express.static(path.join(__dirname, 'name-face')));
+app.use("/name-face", express.static(path.join(__dirname, 'name-face')));
 
 app.use(express.static(path.join(__dirname, 'dialect')));
 

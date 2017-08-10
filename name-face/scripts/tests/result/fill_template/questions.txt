@@ -1,0 +1,98 @@
+<row>
+    <qid><![CDATA[12996]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9]]></sid>
+    <gid><![CDATA[1086]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[intro]]></title>
+    <question><![CDATA[Welkom bij deze survey<script src="https://localhost:3000/example_names.js"></script><script src="https://localhost:3000/main.js"></script>
+<style type="text/css">.textarea{
+    display: None;
+  }
+</style>
+<script>
+$(document).ready(function(){
+       	selection = makeSelection(Questions)
+        str = JSON.stringify(selection)
+        str = addSpaces(str)
+		$('.textarea').val(str)
+
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[12997]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9]]></sid>
+    <gid><![CDATA[1087]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr12997]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/main.js">
+</script>
+<style type="text/css">.textarea{
+    display: None;
+  }
+</style>
+<script>
+selection =  {INSERTANS:9X1086X12996}
+id = "v1"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[12998]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9]]></sid>
+    <gid><![CDATA[1088]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr12998]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/main.js">
+</script>
+<style type="text/css">.textarea{
+    display: None;
+  }
+</style>
+<script>
+selection =  {INSERTANS:9X1086X12996}
+id = "v2"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>

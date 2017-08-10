@@ -17,39 +17,7 @@
    <fieldname>grelevance</fieldname>
   </fields>
   <rows>
-   <row>
-    <gid><![CDATA[1086]]></gid>
-    <sid><![CDATA[853735]]></sid>
-    <group_name><![CDATA[Intro]]></group_name>
-    <group_order><![CDATA[0]]></group_order>
-    <description><![CDATA[<p>Welkom</p>
-
-<p>Uw tekst hier</p>
-]]></description>
-    <language><![CDATA[en]]></language>
-    <randomization_group/>
-    <grelevance/>
-   </row>
-   <row>
-    <gid><![CDATA[1087]]></gid>
-    <sid><![CDATA[853735]]></sid>
-    <group_name><![CDATA[Getting answers test]]></group_name>
-    <group_order><![CDATA[1]]></group_order>
-    <description/>
-    <language><![CDATA[en]]></language>
-    <randomization_group/>
-    <grelevance/>
-   </row>
-   <row>
-    <gid><![CDATA[1089]]></gid>
-    <sid><![CDATA[853735]]></sid>
-    <group_name><![CDATA[Getting answers test]]></group_name>
-    <group_order><![CDATA[2]]></group_order>
-    <description/>
-    <language><![CDATA[en]]></language>
-    <randomization_group/>
-    <grelevance/>
-   </row>
+${groups}
   </rows>
  </groups>
  <questions>
@@ -72,104 +40,9 @@
    <fieldname>relevance</fieldname>
    <fieldname>modulename</fieldname>
   </fields>
+
   <rows>
-   <row>
-    <qid><![CDATA[12996]]></qid>
-    <parent_qid><![CDATA[0]]></parent_qid>
-    <sid><![CDATA[853735]]></sid>
-    <gid><![CDATA[1086]]></gid>
-    <type><![CDATA[T]]></type>
-    <title><![CDATA[intro]]></title>
-    <question><![CDATA[Welkom bij deze survey<script src="https://localhost:3000/example_names.js"></script><script src="https://localhost:3000/main.js"></script>
-<style type="text/css">.textarea{
-    display: None;
-  }
-</style>
-<script>
-
-$(document).ready(function(){
-       	selection = makeSelection(Questions)
-        str = JSON.stringify(selection)
-        str = addSpaces(str)
-		$('.textarea').val(str)
-
-})
-</script>]]></question>
-    <preg/>
-    <help/>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[0]]></question_order>
-    <language><![CDATA[en]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename/>
-   </row>
-   <row>
-    <qid><![CDATA[12997]]></qid>
-    <parent_qid><![CDATA[0]]></parent_qid>
-    <sid><![CDATA[853735]]></sid>
-    <gid><![CDATA[1087]]></gid>
-    <type><![CDATA[T]]></type>
-    <title><![CDATA[vr1]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/main.js">
-</script>
-<style type="text/css">.textarea{
-    display: None;
-  }
-</style>
-<script>
-selection =  {INSERTANS:853735X1086X12996}
-id = "v1"
-$(document).ready(function(){
-	generateQuestion(id, selection[id])
-})
-
-</script>]]></question>
-    <preg/>
-    <help/>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[Y]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
-    <language><![CDATA[en]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename/>
-   </row>
-   <row>
-    <qid><![CDATA[12999]]></qid>
-    <parent_qid><![CDATA[0]]></parent_qid>
-    <sid><![CDATA[853735]]></sid>
-    <gid><![CDATA[1089]]></gid>
-    <type><![CDATA[T]]></type>
-    <title><![CDATA[vr2]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/main.js">
-</script>
-<style type="text/css">.textarea{
-    display: None;
-  }
-</style>
-<script>
-selection =  {INSERTANS:853735X1086X12996}
-id = "v2"
-$(document).ready(function(){
-	generateQuestion(id, selection[id])
-})
-
-</script>]]></question>
-    <preg/>
-    <help/>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[Y]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
-    <language><![CDATA[en]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename/>
-   </row>
+  ${questions}
   </rows>
  </questions>
  <surveys>
@@ -232,7 +105,7 @@ $(document).ready(function(){
   </fields>
   <rows>
    <row>
-    <sid><![CDATA[853735]]></sid>
+    <sid><![CDATA[900000]]></sid>
     <admin><![CDATA[Gerson Foks]]></admin>
     <adminemail><![CDATA[gerson.foks@gmail.com]]></adminemail>
     <anonymized><![CDATA[N]]></anonymized>
@@ -310,7 +183,7 @@ $(document).ready(function(){
   </fields>
   <rows>
    <row>
-    <surveyls_survey_id><![CDATA[853735]]></surveyls_survey_id>
+    <surveyls_survey_id><![CDATA[900000]]></surveyls_survey_id>
     <surveyls_language><![CDATA[en]]></surveyls_language>
     <surveyls_title><![CDATA[nameface demo]]></surveyls_title>
     <surveyls_description><![CDATA[Een demo om de mogelijkheden van limesurvey te tonen voor het nameface project]]></surveyls_description>

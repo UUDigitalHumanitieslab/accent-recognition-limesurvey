@@ -1,4 +1,4 @@
-var ROOT =  "https://localhost:3000/";
+var ROOT =  "https://localhost:3000/name-face/";
 
 
 //Questions structure: {Question_id : {A: [name1, name2, name3], B: [name1, name2, name3], realName: name}, Question_id2: ....}

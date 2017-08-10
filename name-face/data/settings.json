@@ -1,0 +1,13 @@
+{
+  "output_location": "./results",
+  "input_location": "./data",
+  "names_file_ref": "./data/names.txt",
+  "survey_id": 9000,
+  "starting_group_id": 1,
+  "starting_question_id": 1000,
+  "question": "./scripts/questions.mako",
+  "group": "./scripts/groups.mako",
+  "survey": "./scripts/survey.mako",
+  "main_js_file_ref": "https://localhost:3000/name-face/main.js",
+  "name_js_file_ref": "https://localhost:3000/name-face/questions.js"
+}

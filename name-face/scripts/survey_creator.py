@@ -1,0 +1,26 @@
+
+
+class SurveyCreator():
+    """
+    A Survey creator is used to created surveys. It needs three things to create a survey:
+    1) a settings provider, that provides settings( Most simply in a dict) (see providers.py)
+        Settings must at least contain an input and output location
+    2) a metadata provider, which provides the metadata for generating the surveys (see providers.py)
+    3) a list of generator classes that generate the actual survey (See generators.py)
+    """
+    def __init__(self, settings_provider, metadata_provider, generator_classes):
+        self.settings_provider = settings_provider
+        self.metadata_provider = metadata_provider
+        self.generator_classes = generator_classes
+
+    def create_survey(self):
+        """
+        Creates a survey with the given providers and generators
+        :return:
+        """
+        settings = self.settings_provider.get()
+        metadata = self.metadata_provider.get(settings=settings)
+        for generator_class in self.generator_classes:
+            gen = generator_class(settings)
+            gen.generate(metadata, settings["input_location"], settings["output_location"])
+

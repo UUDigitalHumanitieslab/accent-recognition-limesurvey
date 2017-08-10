@@ -1,3 +1,10 @@
 {
-  "tests/test_limesurvey_generator.py::TestJsonGenerator::()::test_generator": true
+  "tests/test_decorator/functions.py::test_decorator": true,
+  "tests/test_decorator/functions.py::test_sum_test_case": true,
+  "tests/test_helper_functions.py::test_normalize_file_and_return_lines": true,
+  "tests/test_helper_functions.py::test_normalize_file_and_return_lines[normalize_file_and_return_lines_test_case0]": true,
+  "tests/test_helper_functions.py::test_normalize_file_and_return_lines[normalize_file_and_return_lines_test_case1]": true,
+  "tests/test_limesurvey_generator.py::TestSurveyGenerator::()::test_fil_templates": true,
+  "tests/test_limesurvey_generator.py::TestSurveyGenerator::()::test_fill_templates": true,
+  "tests/test_limesurvey_generator.py::TestSurveyGenerator::()::test_fill_templates[templates_test_cases2]": true
 }

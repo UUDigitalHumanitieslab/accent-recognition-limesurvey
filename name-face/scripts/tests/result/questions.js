@@ -1,28 +1,28 @@
 Questions = {
   "v2": {
-    "B": [
-      "Amber",
-      "Ursula",
-      "Frederike"
-    ],
     "realName": "Emelie",
     "A": [
       "Chloe",
       "Aneloes",
       "Anna"
+    ],
+    "B": [
+      "Amber",
+      "Ursula",
+      "Frederike"
     ]
   },
   "v1": {
-    "B": [
-      "Roderik",
-      "Gert",
-      "Maurits"
-    ],
     "realName": "Daan",
     "A": [
       "Jaap",
       "Bert",
       "Jan"
+    ],
+    "B": [
+      "Roderik",
+      "Gert",
+      "Maurits"
     ]
   }
 }

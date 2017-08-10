@@ -1,0 +1,31 @@
+<row>
+    <gid><![CDATA[1086]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Intro]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description><![CDATA[<p>Welkom</p>
+]]></description>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[1002]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q1002]]></group_name>
+    <group_order><![CDATA[1002]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[1003]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q1003]]></group_name>
+    <group_order><![CDATA[1003]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>

@@ -1,8 +1,9 @@
 import pytest
 import json
-from ..limesurvey_generator import *
+from ..generators import *
 import glob
 from PIL import ImageChops, Image
+from .fill_template_test_cases import *
 
 def load_json_from_file(file_ref):
     info =  None
@@ -25,7 +26,7 @@ def input_files(information):
 
 
 def test_parse(information, input_files):
-    result = Parser.parse(input_files["names_file_ref"])
+    result = Parser.parse(input_files)
     assert set(result), set( information["expected_parsed_structure"])
 
 def test_get_input(information, input_files):
@@ -70,13 +71,20 @@ class AbstractTestGenerator():
 
     @pytest.fixture(scope="module")
     def parsing_result(self, input_files):
-        return Parser.parse(input_files["names_file_ref"])
+        result = Parser.parse(input_files)
+        result.update({
+                "starting_question_id": 12996,
+    "starting_group_id": 1086,
+    "survey_id": 9000,
+    "main_js_file_ref": "https://localhost:3000/main.js",
+    "name_js_file_ref": "https://localhost:3000/example_names.js"})
+        return result
     @pytest.fixture(scope="module")
     def input_file_location(self, information):
         return information["data_path"]
 
     def test_generator(self, generator, parsing_result, input_file_location, output_file_location, expected_files):
-        generator.generate(generator, parsing_result, input_file_location, output_file_location)
+        generator.generate(parsing_result, input_file_location, output_file_location)
         self.check_output_files_location(output_file_location,  expected_files)
         self.check_output_files_content(output_file_location, expected_files)
         self.clean_up(parsing_result, output_file_location)
@@ -100,16 +108,13 @@ class AbstractTestGenerator():
     def compare(self, file1, file2):
         raise NotImplementedError
 
-
-
-
     def clean_up(self, input_files, output_files):
         pass
 
 class TestImgGenerator(AbstractTestGenerator):
     @pytest.fixture(scope="module")
     def generator(self):
-        return ImgGenerator
+        return ImgGenerator({})
 
     @pytest.fixture(scope="module")
     def output_file_location(self, information):
@@ -128,7 +133,7 @@ class TestImgGenerator(AbstractTestGenerator):
 class TestJsonGenerator(AbstractTestGenerator):
     @pytest.fixture(scope="module")
     def generator(self):
-        return JsonGenerator
+        return JsGenerator({})
 
     @pytest.fixture(scope="module")
     def output_file_location(self, information):
@@ -141,5 +146,49 @@ class TestJsonGenerator(AbstractTestGenerator):
     #TODO make this actually compare the two files, we now have a problem with the sequence of the words (may need to normalize it somehow)
     def compare(self, file1, file2):
         assert True
+
+class TestSurveyGenerator(AbstractTestGenerator):
+    @pytest.fixture(scope="module")
+    def generator(self):
+        template_refs = {
+            "group": "./tests/makos/groups.mako",
+            "question": "./tests/makos/questions.mako",
+            "survey": "./tests/makos/survey.mako"
+        }
+        return SurveyGenerator(template_refs)
+
+    @pytest.fixture(scope="module")
+    def output_file_location(self, information):
+        return information["path_to_result"]
+
+    @pytest.fixture(scope="module")
+    def expected_files(self, information):
+        return {"names": ["limesurvey_survey_9.lss"], "location": information["path_to_expected"]}
+
+    def compare(self, file1, file2):
+        pass
+
+    @pytest.fixture(scope="module", params=fill_template_test_cases)
+    def templates_test_cases(self, request):
+        return request.param
+
+
+    def test_write_template_to_file(self, generator, templates_test_cases):
+        """
+        :param generator:
+        :param templates_test_cases:
+        :return:
+        """
+        pass
+
+    def check_write_template_to_file(self, generator, template_ref, json, output_location, expected_file_ref):
+        generator.write_template_to_file(template_ref, json, output_location)
+        lines_output = get_lines(output_location)
+        lines_expected = get_lines(expected_file_ref)
+        assert lines_expected == lines_output
+
+
+
+
 
 
