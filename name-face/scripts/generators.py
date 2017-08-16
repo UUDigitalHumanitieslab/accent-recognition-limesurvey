@@ -55,12 +55,13 @@ class SurveyGenerator(AbstractGenerator):
         self.group_template_ref = settings["group"]
         self.questions_template_ref = settings["question"]
         self.survey_template = settings["survey"]
+        self.answer_template_ref = settings["answers"]
 
     def generate(self, parsing_result, input_location, output_location):
         groups = self.render_template( self.group_template_ref, parsing_result)
         questions = self.render_template(self.questions_template_ref, parsing_result)
-
-        self.write_template_to_file(self.survey_template, {"groups": groups, "questions": questions, "survey_id": parsing_result["survey_id"]}, output_location)
+        answers = self.render_template(self.answer_template_ref, parsing_result)
+        self.write_template_to_file(self.survey_template, {"groups": groups, "questions": questions, "answers": answers, "survey_id": parsing_result["survey_id"]}, output_location)
 
     def write_template_to_file(self, template_ref, json, output_location):
         output = self.render_template(template_ref, json)
@@ -69,6 +70,5 @@ class SurveyGenerator(AbstractGenerator):
 
     def render_template(self, template_ref, json):
         template = Template(filename=template_ref, strict_undefined=True)
-
         return template.render(**json)
 

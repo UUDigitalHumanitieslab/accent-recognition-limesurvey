@@ -1,5 +1,6 @@
-var ROOT =  "https://localhost:3000/name-face/";
+var ROOT =  "https://localhost:3000/name-face/static-files/";
 
+var imgDimensions = [400, 600];
 
 //Questions structure: {Question_id : {A: [name1, name2, name3], B: [name1, name2, name3], realName: name}, Question_id2: ....}
 
@@ -73,7 +74,7 @@ function addSpaces(str){
 }
 
 function generateRadioInput(str){
-    return  `<input class="ans-option" type="radio" name="ans" value="${str}">${str}<br>`
+    return  `<input class="ans-option" type="radio" name="ans" value="${str}">${str} `
 }
 
 function arrayToStr(ar){
@@ -91,7 +92,7 @@ function generateQuestion(questionId, selection){
     var answerContainer = $('.answer-container')
     //Put the data in the question
     //answerContainer.append("<data src='" + ROOT + "data/" + questionId + ".jpg'>")
-    answerContainer.append(`<img src='${ROOT}img/${questionId}.jpg'>`)
+    answerContainer.append(`<img src='${ROOT}img/${questionId}.jpg' width=${imgDimensions[0]} height=${imgDimensions[1]}>`)
     //Put the answers in the question
     var answers = selection['answers']
     shuffle(answers)

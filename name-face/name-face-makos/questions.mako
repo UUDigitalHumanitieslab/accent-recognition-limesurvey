@@ -16,7 +16,6 @@ $(document).ready(function(){
         str = JSON.stringify(selection)
         str = addSpaces(str)
 		$('.textarea').val(str)
-
 })
 </script>]]></question>
     <preg/>
@@ -44,9 +43,11 @@ $(document).ready(function(){
     <title><![CDATA[vr${id}]]></title>
     <question><![CDATA[<script src="${main_js_file_ref}">
 </script>
+        <link rel="stylesheet" type="text/css" href=${css_file_ref}>
 <style type="text/css">.textarea{
     display: None;
   }
+
 </style>
 <script>
 selection =  {INSERTANS:${survey_id}X${starting_group_id}X${starting_question_id}}
@@ -54,7 +55,6 @@ id = "v${i}"
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
-
 </script>]]></question>
     <preg/>
     <help/>

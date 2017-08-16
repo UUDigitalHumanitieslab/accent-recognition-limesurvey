@@ -6,7 +6,7 @@
         <language>en</language>
     </languages>
    <answers>
-       ${answers}
+       
    </answers>
     <groups>
         <fields>
@@ -20,7 +20,68 @@
             <fieldname>grelevance</fieldname>
         </fields>
         <rows>
-            ${groups}
+            <row>
+    <gid><![CDATA[1]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Intro]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
+    <description><![CDATA[<p>Welkom</p>
+]]></description>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[2]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q2]]></group_name>
+    <group_order><![CDATA[2]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[3]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q3]]></group_name>
+    <group_order><![CDATA[3]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[4]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q4]]></group_name>
+    <group_order><![CDATA[4]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[5]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q5]]></group_name>
+    <group_order><![CDATA[5]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[6]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q6]]></group_name>
+    <group_order><![CDATA[6]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+
         </rows>
     </groups>
     <questions>
@@ -45,7 +106,208 @@
         </fields>
 
         <rows>
-            ${questions}
+            <row>
+    <qid><![CDATA[1000]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[1]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[intro]]></title>
+    <question><![CDATA[Welkom bij deze survey<script src="https://localhost:3000/name-face/static-files/questions.js"></script><script src="https://localhost:3000/name-face/static-files/main.js"></script>
+<style type="text/css">.textarea{
+    display: None;
+  }
+</style>
+<script>
+$(document).ready(function(){
+       	selection = makeSelection(Questions)
+        str = JSON.stringify(selection)
+        str = addSpaces(str)
+		$('.textarea').val(str)
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1001]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1001]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v1"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1002]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[3]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1002]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v2"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1003]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[4]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1003]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v3"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1004]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[5]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1004]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v4"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1005]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[6]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1005]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v5"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+
         </rows>
     </questions>
     <surveys>

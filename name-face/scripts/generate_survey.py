@@ -5,9 +5,7 @@ from .providers import *
 
 
 settings_provider = JsonRefProvider("./data/settings.json")
-
 metadata_provider = ParsedMetadataProvider(Parser)
 generators = [JsGenerator, ImgGenerator, SurveyGenerator]
 creator = SurveyCreator(settings_provider, metadata_provider, generators)
 creator.create_survey()
-
