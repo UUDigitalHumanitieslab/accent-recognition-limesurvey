@@ -9,7 +9,7 @@
     <randomization_group/>
     <grelevance/>
 </row>
-% for i in range(starting_group_id + 1, starting_group_id + len(questions) + 1):
+% for i in range(starting_group_id + 2, starting_group_id + len(questions) + 2):
 <row>
     <gid><![CDATA[${i}]]></gid>
     <sid><![CDATA[900000]]></sid>

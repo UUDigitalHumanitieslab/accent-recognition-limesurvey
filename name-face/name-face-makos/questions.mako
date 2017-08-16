@@ -42,8 +42,8 @@ $(document).ready(function(){
 </row>
 % for i in range(1, len(questions) + 1):
     <%
-    id = starting_question_id + i
-    group_id = starting_group_id + i
+    id = starting_question_id + i + 1
+    group_id = starting_group_id + i + 1
     %>
     <row>
     <qid><![CDATA[${id}]]></qid>

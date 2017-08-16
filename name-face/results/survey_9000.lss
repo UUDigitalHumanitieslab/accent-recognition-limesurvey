@@ -32,16 +32,6 @@
     <grelevance/>
 </row>
 <row>
-    <gid><![CDATA[2]]></gid>
-    <sid><![CDATA[900000]]></sid>
-    <group_name><![CDATA[Q2]]></group_name>
-    <group_order><![CDATA[2]]></group_order>
-    <description/>
-    <language><![CDATA[en]]></language>
-    <randomization_group/>
-    <grelevance/>
-</row>
-<row>
     <gid><![CDATA[3]]></gid>
     <sid><![CDATA[900000]]></sid>
     <group_name><![CDATA[Q3]]></group_name>
@@ -76,6 +66,16 @@
     <sid><![CDATA[900000]]></sid>
     <group_name><![CDATA[Q6]]></group_name>
     <group_order><![CDATA[6]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group/>
+    <grelevance/>
+</row>
+<row>
+    <gid><![CDATA[7]]></gid>
+    <sid><![CDATA[900000]]></sid>
+    <group_name><![CDATA[Q7]]></group_name>
+    <group_order><![CDATA[7]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
     <randomization_group/>
@@ -150,40 +150,6 @@ $(document).ready(function(){
 </row>
     
     <row>
-    <qid><![CDATA[1001]]></qid>
-    <parent_qid><![CDATA[0]]></parent_qid>
-    <sid><![CDATA[9000]]></sid>
-    <gid><![CDATA[2]]></gid>
-    <type><![CDATA[T]]></type>
-    <title><![CDATA[vr1001]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
-</script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
-<style type="text/css">.textarea{
-    display: None;
-  }
-
-</style>
-<script>
-selection =  {INSERTANS:9000X1X1000}
-id = "v1"
-$(document).ready(function(){
-	generateQuestion(id, selection[id])
-})
-</script>]]></question>
-    <preg/>
-    <help/>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[Y]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
-    <language><![CDATA[en]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename/>
-</row>
-    
-    <row>
     <qid><![CDATA[1002]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[9000]]></sid>
@@ -200,7 +166,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v2"
+id = "v1"
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -234,7 +200,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v3"
+id = "v2"
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -268,7 +234,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v4"
+id = "v3"
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -292,6 +258,40 @@ $(document).ready(function(){
     <gid><![CDATA[6]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1005]]></title>
+    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v4"
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1006]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[7]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1006]]></title>
     <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
