@@ -6,7 +6,100 @@
         <language>en</language>
     </languages>
    <answers>
-       
+       <fields>
+    <fieldname>qid</fieldname>
+    <fieldname>code</fieldname>
+    <fieldname>answer</fieldname>
+    <fieldname>sortorder</fieldname>
+    <fieldname>assessment_value</fieldname>
+    <fieldname>language</fieldname>
+    <fieldname>scale_id</fieldname>
+</fields>
+
+
+<rows>
+    <row>
+        <qid><![CDATA[1002]]></qid>
+        <code>1</code>
+        <answer>man</answer>
+        <sortorder>1</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1002]]></qid>
+        <code>2</code>
+        <answer>vrouw</answer>
+        <sortorder>2</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1003]]></qid>
+        <code>1</code>
+        <answer>basisschool</answer>
+        <sortorder>1</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1003]]></qid>
+        <code>2</code>
+        <answer>MAVO</answer>
+        <sortorder>2</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1003]]></qid>
+        <code>3</code>
+        <answer>HAVO</answer>
+        <sortorder>3</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1003]]></qid>
+        <code>4</code>
+        <answer>WVO</answer>
+        <sortorder>4</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1003]]></qid>
+        <code>5</code>
+        <answer>MBO</answer>
+        <sortorder>5</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1003]]></qid>
+        <code>6</code>
+        <answer>HBO</answer>
+        <sortorder>6</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1003]]></qid>
+        <code>7</code>
+        <answer>WO</answer>
+        <sortorder>7</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+</rows>
    </answers>
     <groups>
         <fields>
@@ -162,6 +255,43 @@ $(document).ready(function(){
 
 
 <row>
+    <qid><![CDATA[1002]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type>L</type>
+    <title>Geslacht</title>
+    <question>Geslacht:</question>
+    <preg/>
+    <help/>
+    <other>Y</other>
+    <mandatory>Y</mandatory>
+    <question_order>2</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+</row>
+<row>
+    <qid><![CDATA[1003]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type>L</type>
+    <title>opleiding</title>
+    <question>Wat is je hoogst genoten opleiding?</question>
+    <preg/>
+    <help/>
+    <other>Y</other>
+    <mandatory>Y</mandatory>
+    <question_order>3</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+</row>
+
+<row>
     <qid><![CDATA[1001]]></qid>
     <parent_qid>0</parent_qid>
     <sid><![CDATA[9000]]></sid>
@@ -198,7 +328,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v1"
+id = "v1";
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -232,7 +362,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v2"
+id = "v2";
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -266,7 +396,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v3"
+id = "v3";
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -300,7 +430,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v4"
+id = "v4";
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -334,7 +464,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:9000X1X1000}
-id = "v5"
+id = "v5";
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })

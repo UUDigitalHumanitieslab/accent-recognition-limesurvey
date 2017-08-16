@@ -1,0 +1,98 @@
+<fields>
+    <fieldname>qid</fieldname>
+    <fieldname>code</fieldname>
+    <fieldname>answer</fieldname>
+    <fieldname>sortorder</fieldname>
+    <fieldname>assessment_value</fieldname>
+    <fieldname>language</fieldname>
+    <fieldname>scale_id</fieldname>
+</fields>
+
+<%
+    group_id = starting_group_id+ 1
+    gender_question_id = starting_question_id + 2
+    education_question_id = starting_question_id + 3
+%>
+<rows>
+    <row>
+        <qid><![CDATA[${gender_question_id}]]></qid>
+        <code>1</code>
+        <answer>man</answer>
+        <sortorder>1</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${gender_question_id}]]></qid>
+        <code>2</code>
+        <answer>vrouw</answer>
+        <sortorder>2</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${education_question_id}]]></qid>
+        <code>1</code>
+        <answer>basisschool</answer>
+        <sortorder>1</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${education_question_id}]]></qid>
+        <code>2</code>
+        <answer>MAVO</answer>
+        <sortorder>2</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${education_question_id}]]></qid>
+        <code>3</code>
+        <answer>HAVO</answer>
+        <sortorder>3</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${education_question_id}]]></qid>
+        <code>4</code>
+        <answer>WVO</answer>
+        <sortorder>4</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${education_question_id}]]></qid>
+        <code>5</code>
+        <answer>MBO</answer>
+        <sortorder>5</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${education_question_id}]]></qid>
+        <code>6</code>
+        <answer>HBO</answer>
+        <sortorder>6</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${education_question_id}]]></qid>
+        <code>7</code>
+        <answer>WO</answer>
+        <sortorder>7</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+</rows>

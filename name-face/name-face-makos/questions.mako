@@ -41,9 +41,49 @@ $(document).ready(function(){
     <modulename/>
 </row>
 <%
+
+    group_id = starting_group_id+ 1
     leeftijd_question_id = starting_question_id +1
-    group_id = starting_group_id + 1
+    gender_question_id = starting_question_id + 2
+    education_question_id = starting_question_id + 3
 %>
+
+<row>
+    <qid><![CDATA[${gender_question_id}]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[${survey_id}]]></sid>
+    <gid><![CDATA[${group_id}]]></gid>
+    <type>L</type>
+    <title>Geslacht</title>
+    <question>Geslacht:</question>
+    <preg/>
+    <help/>
+    <other>Y</other>
+    <mandatory>Y</mandatory>
+    <question_order>2</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+</row>
+<row>
+    <qid><![CDATA[${education_question_id}]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[${survey_id}]]></sid>
+    <gid><![CDATA[${group_id}]]></gid>
+    <type>L</type>
+    <title>opleiding</title>
+    <question>Wat is je hoogst genoten opleiding?</question>
+    <preg/>
+    <help/>
+    <other>Y</other>
+    <mandatory>Y</mandatory>
+    <question_order>3</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+</row>
 
 <row>
     <qid><![CDATA[${leeftijd_question_id}]]></qid>
