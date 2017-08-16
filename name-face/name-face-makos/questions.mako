@@ -5,7 +5,18 @@
     <gid><![CDATA[${starting_group_id}]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[intro]]></title>
-    <question><![CDATA[Welkom bij deze survey<script src="${name_js_file_ref}"></script><script src="${main_js_file_ref}"></script>
+    <question><![CDATA[
+        <p>Welkom bij deze survey.</p>
+
+<p>Zometeen vragen we je eerst om persoonlijke gegevens.</p>
+
+<p>Daarna krijg je steeds 1 portrait te zien met 4 namen. Aan jou de taak om de naam te selecteren die bij de foto hoort.</p>
+
+<p>Aan het einde van de survey krijg je te horen hoe goed je bent in het matchen van namen en gezichten</p>
+
+<p>Success!</p>
+
+<script src="${name_js_file_ref}"></script><script src="${main_js_file_ref}"></script>
 <style type="text/css">.textarea{
     display: None;
   }

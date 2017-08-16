@@ -113,7 +113,18 @@
     <gid><![CDATA[1]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[intro]]></title>
-    <question><![CDATA[Welkom bij deze survey<script src="https://localhost:3000/name-face/static-files/questions.js"></script><script src="https://localhost:3000/name-face/static-files/main.js"></script>
+    <question><![CDATA[
+        <p>Welkom bij deze survey.</p>
+
+<p>Zometeen vragen we je eerst om persoonlijke gegevens.</p>
+
+<p>Daarna krijg je steeds 1 portrait te zien met 4 namen. Aan jou de taak om de naam te selecteren die bij de foto hoort.</p>
+
+<p>Aan het einde van de survey krijg je te horen hoe goed je bent in het matchen van namen en gezichten</p>
+
+<p>Success!</p>
+
+<script src="https://localhost:3000/name-face/static-files/questions.js"></script><script src="https://localhost:3000/name-face/static-files/main.js"></script>
 <style type="text/css">.textarea{
     display: None;
   }
