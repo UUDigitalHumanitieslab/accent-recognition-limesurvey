@@ -1,17 +1,4 @@
 Questions = {
-  "v3": {
-    "A": [
-      "Sem",
-      "Luc",
-      "Joep"
-    ],
-    "realName": "Rens",
-    "B": [
-      "Hidde",
-      "Jacob",
-      "Maikel"
-    ]
-  },
   "v1": {
     "A": [
       "Bart",
@@ -62,6 +49,19 @@ Questions = {
       "Hester",
       "Malou",
       "Debby"
+    ]
+  },
+  "v3": {
+    "A": [
+      "Sem",
+      "Luc",
+      "Joep"
+    ],
+    "realName": "Rens",
+    "B": [
+      "Hidde",
+      "Jacob",
+      "Maikel"
     ]
   }
 }

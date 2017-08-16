@@ -22,7 +22,7 @@
         <rows>
             <row>
     <gid><![CDATA[1]]></gid>
-    <sid><![CDATA[900000]]></sid>
+    <sid><![CDATA[9000]]></sid>
     <group_name><![CDATA[Intro]]></group_name>
     <group_order><![CDATA[0]]></group_order>
     <description><![CDATA[<p>Welkom</p>
@@ -31,9 +31,20 @@
     <randomization_group/>
     <grelevance/>
 </row>
+
+<row>
+    <gid><![CDATA[2]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name>Persoonlijke informatie</group_name>
+    <group_order>1</group_order>
+    <description/>
+    <language>en</language>
+    <randomization_group/>
+    <grelevance/>
+</row>
 <row>
     <gid><![CDATA[3]]></gid>
-    <sid><![CDATA[900000]]></sid>
+    <sid><![CDATA[9000]]></sid>
     <group_name><![CDATA[Q3]]></group_name>
     <group_order><![CDATA[3]]></group_order>
     <description/>
@@ -43,7 +54,7 @@
 </row>
 <row>
     <gid><![CDATA[4]]></gid>
-    <sid><![CDATA[900000]]></sid>
+    <sid><![CDATA[9000]]></sid>
     <group_name><![CDATA[Q4]]></group_name>
     <group_order><![CDATA[4]]></group_order>
     <description/>
@@ -53,7 +64,7 @@
 </row>
 <row>
     <gid><![CDATA[5]]></gid>
-    <sid><![CDATA[900000]]></sid>
+    <sid><![CDATA[9000]]></sid>
     <group_name><![CDATA[Q5]]></group_name>
     <group_order><![CDATA[5]]></group_order>
     <description/>
@@ -63,7 +74,7 @@
 </row>
 <row>
     <gid><![CDATA[6]]></gid>
-    <sid><![CDATA[900000]]></sid>
+    <sid><![CDATA[9000]]></sid>
     <group_name><![CDATA[Q6]]></group_name>
     <group_order><![CDATA[6]]></group_order>
     <description/>
@@ -73,7 +84,7 @@
 </row>
 <row>
     <gid><![CDATA[7]]></gid>
-    <sid><![CDATA[900000]]></sid>
+    <sid><![CDATA[9000]]></sid>
     <group_name><![CDATA[Q7]]></group_name>
     <group_order><![CDATA[7]]></group_order>
     <description/>
@@ -148,14 +159,35 @@ $(document).ready(function(){
     <relevance><![CDATA[1]]></relevance>
     <modulename/>
 </row>
+
+
+<row>
+    <qid><![CDATA[1001]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[2]]></gid>
+    <type>N</type>
+    <title>leeftijd</title>
+    <question>Wat is je leeftijd?</question>
+    <preg/>
+    <help/>
+    <other>N</other>
+    <mandatory>Y</mandatory>
+    <question_order>1</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+    <modulename/>
+</row>
     
     <row>
-    <qid><![CDATA[1002]]></qid>
+    <qid><![CDATA[1004]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[9000]]></sid>
     <gid><![CDATA[3]]></gid>
     <type><![CDATA[T]]></type>
-    <title><![CDATA[vr1002]]></title>
+    <title><![CDATA[vr1004]]></title>
     <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
@@ -184,12 +216,12 @@ $(document).ready(function(){
 </row>
     
     <row>
-    <qid><![CDATA[1003]]></qid>
+    <qid><![CDATA[1005]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[9000]]></sid>
     <gid><![CDATA[4]]></gid>
     <type><![CDATA[T]]></type>
-    <title><![CDATA[vr1003]]></title>
+    <title><![CDATA[vr1005]]></title>
     <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
@@ -218,12 +250,12 @@ $(document).ready(function(){
 </row>
     
     <row>
-    <qid><![CDATA[1004]]></qid>
+    <qid><![CDATA[1006]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[9000]]></sid>
     <gid><![CDATA[5]]></gid>
     <type><![CDATA[T]]></type>
-    <title><![CDATA[vr1004]]></title>
+    <title><![CDATA[vr1006]]></title>
     <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
@@ -252,12 +284,12 @@ $(document).ready(function(){
 </row>
     
     <row>
-    <qid><![CDATA[1005]]></qid>
+    <qid><![CDATA[1007]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[9000]]></sid>
     <gid><![CDATA[6]]></gid>
     <type><![CDATA[T]]></type>
-    <title><![CDATA[vr1005]]></title>
+    <title><![CDATA[vr1007]]></title>
     <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
@@ -286,12 +318,12 @@ $(document).ready(function(){
 </row>
     
     <row>
-    <qid><![CDATA[1006]]></qid>
+    <qid><![CDATA[1008]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[9000]]></sid>
     <gid><![CDATA[7]]></gid>
     <type><![CDATA[T]]></type>
-    <title><![CDATA[vr1006]]></title>
+    <title><![CDATA[vr1008]]></title>
     <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
@@ -318,6 +350,7 @@ $(document).ready(function(){
     <relevance><![CDATA[1]]></relevance>
     <modulename/>
 </row>
+
 
         </rows>
     </questions>

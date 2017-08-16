@@ -40,9 +40,33 @@ $(document).ready(function(){
     <relevance><![CDATA[1]]></relevance>
     <modulename/>
 </row>
+<%
+    leeftijd_question_id = starting_question_id +1
+    group_id = starting_group_id + 1
+%>
+
+<row>
+    <qid><![CDATA[${leeftijd_question_id}]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[${survey_id}]]></sid>
+    <gid><![CDATA[${group_id}]]></gid>
+    <type>N</type>
+    <title>leeftijd</title>
+    <question>Wat is je leeftijd?</question>
+    <preg/>
+    <help/>
+    <other>N</other>
+    <mandatory>Y</mandatory>
+    <question_order>1</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+    <modulename/>
+</row>
 % for i in range(1, len(questions) + 1):
     <%
-    id = starting_question_id + i + 1
+    id = starting_question_id + i + 3
     group_id = starting_group_id + i + 1
     %>
     <row>
@@ -62,7 +86,7 @@ $(document).ready(function(){
 </style>
 <script>
 selection =  {INSERTANS:${survey_id}X${starting_group_id}X${starting_question_id}}
-id = "v${i}"
+id = "v${i}";
 $(document).ready(function(){
 	generateQuestion(id, selection[id])
 })
@@ -79,3 +103,4 @@ $(document).ready(function(){
     <modulename/>
 </row>
 % endfor
+
