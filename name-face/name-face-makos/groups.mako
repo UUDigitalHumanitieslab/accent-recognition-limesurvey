@@ -32,7 +32,7 @@
 <row>
     <gid><![CDATA[${i}]]></gid>
     <sid><![CDATA[${survey_id}]]></sid>
-    <group_name><![CDATA[Naam Vraag]]></group_name>
+    <group_name><![CDATA[Vraag]]></group_name>
     <group_order><![CDATA[${i}]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>

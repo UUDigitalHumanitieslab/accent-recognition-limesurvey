@@ -17,6 +17,7 @@
 <p>Success!</p>
 
 <script src="${name_js_file_ref}"></script><script src="${main_js_file_ref}"></script>
+        <link rel="stylesheet" type="text/css" href=${intro_question_css_file_ref}>
 <style type="text/css">.textarea{
     display: None;
   }

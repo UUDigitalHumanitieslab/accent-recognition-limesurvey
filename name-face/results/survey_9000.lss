@@ -158,7 +158,7 @@
 <row>
     <gid><![CDATA[3]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Naam Vraag]]></group_name>
+    <group_name><![CDATA[Vraag]]></group_name>
     <group_order><![CDATA[3]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
@@ -169,7 +169,7 @@
 <row>
     <gid><![CDATA[4]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Naam Vraag]]></group_name>
+    <group_name><![CDATA[Vraag]]></group_name>
     <group_order><![CDATA[4]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
@@ -180,7 +180,7 @@
 <row>
     <gid><![CDATA[5]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Naam Vraag]]></group_name>
+    <group_name><![CDATA[Vraag]]></group_name>
     <group_order><![CDATA[5]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
@@ -191,7 +191,7 @@
 <row>
     <gid><![CDATA[6]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Naam Vraag]]></group_name>
+    <group_name><![CDATA[Vraag]]></group_name>
     <group_order><![CDATA[6]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
@@ -202,7 +202,7 @@
 <row>
     <gid><![CDATA[7]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Naam Vraag]]></group_name>
+    <group_name><![CDATA[Vraag]]></group_name>
     <group_order><![CDATA[7]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
@@ -262,7 +262,8 @@
 
 <p>Success!</p>
 
-<script src="https://localhost:3000/name-face/static-files/questions.js"></script><script src="https://localhost:3000/name-face/static-files/main.js"></script>
+<script src="https://dhstatic.hum.uu.nl/name-facequestions.js"></script><script src="https://dhstatic.hum.uu.nl/name-face/main.js"></script>
+        <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-faceintro-question-style.css>
 <style type="text/css">.textarea{
     display: None;
   }
@@ -295,7 +296,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>L</type>
     <title>Geslacht</title>
-    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facepersonal-questions-style.css>]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -313,7 +314,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>L</type>
     <title>opleiding</title>
-    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facepersonal-questions-style.css>]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -332,7 +333,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>N</type>
     <title>leeftijd</title>
-    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facepersonal-questions-style.css>]]></question>
     <preg/>
     <help/>
     <other>N</other>
@@ -354,9 +355,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1004]]></title>
     <question><![CDATA[
         <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facequestion-style.css>
 <style type="text/css">.textarea{
     display: None;
   }
@@ -390,9 +391,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1005]]></title>
     <question><![CDATA[
         <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facequestion-style.css>
 <style type="text/css">.textarea{
     display: None;
   }
@@ -426,9 +427,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1006]]></title>
     <question><![CDATA[
         <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facequestion-style.css>
 <style type="text/css">.textarea{
     display: None;
   }
@@ -462,9 +463,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1007]]></title>
     <question><![CDATA[
         <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facequestion-style.css>
 <style type="text/css">.textarea{
     display: None;
   }
@@ -498,9 +499,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1008]]></title>
     <question><![CDATA[
         <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facequestion-style.css>
 <style type="text/css">.textarea{
     display: None;
   }
@@ -533,7 +534,7 @@ $(document).ready(function(){
     <gid><![CDATA[8]]></gid>
     <type>L</type>
     <title>Eindvraag</title>
-    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-facepersonal-questions-style.css>]]></question>
     <preg/>
     <help/>
     <other>N</other>

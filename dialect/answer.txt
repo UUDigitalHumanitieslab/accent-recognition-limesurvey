@@ -1,13 +1,14 @@
-Antwoord  <script src="https://dhstatic.hum.uu.nl/dialect-drongo/settings.js"></script> <script src="https://dhstatic.hum.uu.nl/dialect-drongo/answerFunctions.js"></script>
+Antwoord <script src="https://dhstatic.hum.uu.nl/dialect-drongo/settings.js"></script> <script src="https://dhstatic.hum.uu.nl/dialect-drongo/answerFunctions.js"></script>
 <link href="https://dhstatic.hum.uu.nl/dialect-drongo/style.css" rel="stylesheet" type="text/css" /> <script>
 	var answerCoordinates = {
-     lat: 52.0863,
-      lng: 5.12241,
+     lat: 51.533583,
+      lng: 4.960797,
     }
 
-    var answer = "Utrechts Gnoe"
 
-    var questionAnswer = {INSERTANS:256952X1076X12898}
+    var answer = "Brabantse kalkoen"
+
+    var questionAnswer = {INSERTANS:256952X1078X12902}
 
     function initMap(){
          initializeAnswer(answerCoordinates, answer, questionAnswer);

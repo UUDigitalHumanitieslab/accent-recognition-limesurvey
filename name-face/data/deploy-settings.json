@@ -1,0 +1,17 @@
+{
+  "output_location": "./results",
+  "input_location": "./data",
+  "names_file_ref": "./data/names.txt",
+  "survey_id": 9000,
+  "starting_group_id": 1,
+  "starting_question_id": 1000,
+  "question": "./name-face-makos/questions.mako",
+  "group": "./name-face-makos/groups.mako",
+  "answers": "./name-face-makos/answers.mako",
+  "survey": "./name-face-makos/survey.mako",
+  "main_js_file_ref": "https://dhstatic.hum.uu.nl/name-face/main.js",
+  "name_js_file_ref": "https://dhstatic.hum.uu.nl/name-facequestions.js",
+  "css_file_ref": "https://dhstatic.hum.uu.nl/name-facequestion-style.css",
+  "personal_questions_css_file_ref": "https://dhstatic.hum.uu.nl/name-facepersonal-questions-style.css",
+  "intro_question_css_file_ref": "https://dhstatic.hum.uu.nl/name-faceintro-question-style.css"
+}
