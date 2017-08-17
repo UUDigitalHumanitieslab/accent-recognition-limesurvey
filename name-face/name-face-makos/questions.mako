@@ -55,7 +55,7 @@ $(document).ready(function(){
     <gid><![CDATA[${group_id}]]></gid>
     <type>L</type>
     <title>Geslacht</title>
-    <question>Geslacht:</question>
+    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -73,7 +73,7 @@ $(document).ready(function(){
     <gid><![CDATA[${group_id}]]></gid>
     <type>L</type>
     <title>opleiding</title>
-    <question>Wat is je hoogst genoten opleiding?</question>
+    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -92,7 +92,7 @@ $(document).ready(function(){
     <gid><![CDATA[${group_id}]]></gid>
     <type>N</type>
     <title>leeftijd</title>
-    <question>Wat is je leeftijd?</question>
+    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
     <preg/>
     <help/>
     <other>N</other>
@@ -157,7 +157,7 @@ $(document).ready(function(){
     <gid><![CDATA[${last_question_group_id}]]></gid>
     <type>L</type>
     <title>Eindvraag</title>
-    <question>Herkende je een van de mensen op de fotos?</question>
+    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
     <preg/>
     <help/>
     <other>N</other>

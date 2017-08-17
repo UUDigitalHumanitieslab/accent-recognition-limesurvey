@@ -1,11 +1,10 @@
 .answer-container{
-    text-align: center;
-     font-size: 24px;
+     font-size: 16px;
 }
 .asterisk{
     display: None;
 }
 
 .question-text{
-    font-size: 26px;
+    font-size: 18px;
 }

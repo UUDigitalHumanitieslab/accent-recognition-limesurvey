@@ -11,5 +11,6 @@
   "survey": "./name-face-makos/survey.mako",
   "main_js_file_ref": "https://localhost:3000/name-face/static-files/main.js",
   "name_js_file_ref": "https://localhost:3000/name-face/static-files/questions.js",
-  "css_file_ref": "https://localhost:3000/name-face/static-files/question-style.css"
+  "css_file_ref": "https://localhost:3000/name-face/static-files/question-style.css",
+  "personal_questions_css_file_ref": "https://localhost:3000/name-face/static-files/personal-questions-style.css"
 }
