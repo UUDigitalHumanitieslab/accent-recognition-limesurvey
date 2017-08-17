@@ -116,7 +116,9 @@ $(document).ready(function(){
     <gid><![CDATA[${group_id}]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr${id}]]></title>
-    <question><![CDATA[<script src="${main_js_file_ref}">
+    <question><![CDATA[
+        <p>Welke naam past bij de foto?</p>
+        <script src="${main_js_file_ref}">
 </script>
         <link rel="stylesheet" type="text/css" href=${css_file_ref}>
 <style type="text/css">.textarea{

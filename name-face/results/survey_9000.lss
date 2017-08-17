@@ -135,50 +135,56 @@
     <randomization_group/>
     <grelevance/>
 </row>
+
+    
 <row>
     <gid><![CDATA[3]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Q3]]></group_name>
+    <group_name><![CDATA[Q1]]></group_name>
     <group_order><![CDATA[3]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
     <randomization_group/>
     <grelevance/>
 </row>
+    
 <row>
     <gid><![CDATA[4]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Q4]]></group_name>
+    <group_name><![CDATA[Q2]]></group_name>
     <group_order><![CDATA[4]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
     <randomization_group/>
     <grelevance/>
 </row>
+    
 <row>
     <gid><![CDATA[5]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Q5]]></group_name>
+    <group_name><![CDATA[Q3]]></group_name>
     <group_order><![CDATA[5]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
     <randomization_group/>
     <grelevance/>
 </row>
+    
 <row>
     <gid><![CDATA[6]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Q6]]></group_name>
+    <group_name><![CDATA[Q4]]></group_name>
     <group_order><![CDATA[6]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
     <randomization_group/>
     <grelevance/>
 </row>
+    
 <row>
     <gid><![CDATA[7]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name><![CDATA[Q7]]></group_name>
+    <group_name><![CDATA[Q5]]></group_name>
     <group_order><![CDATA[7]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
@@ -318,7 +324,9 @@ $(document).ready(function(){
     <gid><![CDATA[3]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1004]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+    <question><![CDATA[
+        <p>Welke naam past bij de foto?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
 <style type="text/css">.textarea{
@@ -352,7 +360,9 @@ $(document).ready(function(){
     <gid><![CDATA[4]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1005]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+    <question><![CDATA[
+        <p>Welke naam past bij de foto?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
 <style type="text/css">.textarea{
@@ -386,7 +396,9 @@ $(document).ready(function(){
     <gid><![CDATA[5]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1006]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+    <question><![CDATA[
+        <p>Welke naam past bij de foto?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
 <style type="text/css">.textarea{
@@ -420,7 +432,9 @@ $(document).ready(function(){
     <gid><![CDATA[6]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1007]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+    <question><![CDATA[
+        <p>Welke naam past bij de foto?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
 <style type="text/css">.textarea{
@@ -454,7 +468,9 @@ $(document).ready(function(){
     <gid><![CDATA[7]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1008]]></title>
-    <question><![CDATA[<script src="https://localhost:3000/name-face/static-files/main.js">
+    <question><![CDATA[
+        <p>Welke naam past bij de foto?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
         <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
 <style type="text/css">.textarea{

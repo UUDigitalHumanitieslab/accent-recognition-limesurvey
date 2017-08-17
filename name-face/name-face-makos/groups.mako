@@ -22,11 +22,17 @@
     <randomization_group/>
     <grelevance/>
 </row>
+<%
+    Q = 0
+%>
 % for i in range(starting_group_id + 2, starting_group_id + len(questions) + 2):
+    <%
+        Q += 1
+    %>
 <row>
     <gid><![CDATA[${i}]]></gid>
     <sid><![CDATA[${survey_id}]]></sid>
-    <group_name><![CDATA[Q${i}]]></group_name>
+    <group_name><![CDATA[Q${Q}]]></group_name>
     <group_order><![CDATA[${i}]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
