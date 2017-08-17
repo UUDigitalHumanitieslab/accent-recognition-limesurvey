@@ -40,3 +40,16 @@
     <grelevance/>
 </row>
 % endfor
+<%
+    last_question_group_id =  starting_group_id + len(questions) + 2
+%>
+<row>
+    <gid><![CDATA[${last_question_group_id}]]></gid>
+    <sid><![CDATA[${survey_id}]]></sid>
+    <group_name>Laatste Vraag</group_name>
+    <group_order><![CDATA[${last_question_group_id}]]></group_order>
+    <description/>
+    <language>en</language>
+    <randomization_group/>
+    <grelevance/>
+</row>

@@ -145,4 +145,27 @@ $(document).ready(function(){
     <modulename/>
 </row>
 % endfor
+<%
+    last_question_id = starting_question_id + len(questions) + 4
+    last_question_group_id =  starting_group_id + len(questions) + 2
+%>
+
+<row>
+    <qid><![CDATA[${last_question_id}]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[${survey_id}]]></sid>
+    <gid><![CDATA[${last_question_group_id}]]></gid>
+    <type>L</type>
+    <title>Eindvraag</title>
+    <question>Herkende je een van de mensen op de fotos?</question>
+    <preg/>
+    <help/>
+    <other>N</other>
+    <mandatory>Y</mandatory>
+    <question_order>1</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+</row>
 

@@ -12,6 +12,8 @@
     group_id = starting_group_id+ 1
     gender_question_id = starting_question_id + 2
     education_question_id = starting_question_id + 3
+    last_question_id = starting_question_id + len(questions) + 4
+    
 %>
 <rows>
     <row>
@@ -91,6 +93,24 @@
         <code>7</code>
         <answer>WO</answer>
         <sortorder>7</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${last_question_id}]]></qid>
+        <code>1</code>
+        <answer>Ja</answer>
+        <sortorder>1</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[${last_question_id}]]></qid>
+        <code>2</code>
+        <answer>Nee</answer>
+        <sortorder>2</sortorder>
         <assessment_value>1</assessment_value>
         <language>en</language>
         <scale_id>0</scale_id>

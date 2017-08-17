@@ -99,6 +99,24 @@
         <language>en</language>
         <scale_id>0</scale_id>
     </row>
+    <row>
+        <qid><![CDATA[1009]]></qid>
+        <code>1</code>
+        <answer>Ja</answer>
+        <sortorder>1</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
+    <row>
+        <qid><![CDATA[1009]]></qid>
+        <code>2</code>
+        <answer>Nee</answer>
+        <sortorder>2</sortorder>
+        <assessment_value>1</assessment_value>
+        <language>en</language>
+        <scale_id>0</scale_id>
+    </row>
 </rows>
    </answers>
     <groups>
@@ -192,6 +210,16 @@
     <grelevance/>
 </row>
 
+<row>
+    <gid><![CDATA[8]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name>Laatste Vraag</group_name>
+    <group_order><![CDATA[8]]></group_order>
+    <description/>
+    <language>en</language>
+    <randomization_group/>
+    <grelevance/>
+</row>
         </rows>
     </groups>
     <questions>
@@ -495,6 +523,26 @@ $(document).ready(function(){
     <same_default><![CDATA[0]]></same_default>
     <relevance><![CDATA[1]]></relevance>
     <modulename/>
+</row>
+
+
+<row>
+    <qid><![CDATA[1009]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[8]]></gid>
+    <type>L</type>
+    <title>Eindvraag</title>
+    <question>Herkende je een van de mensen op de fotos?</question>
+    <preg/>
+    <help/>
+    <other>N</other>
+    <mandatory>Y</mandatory>
+    <question_order>1</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
 </row>
 
 
