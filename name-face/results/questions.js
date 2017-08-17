@@ -12,6 +12,19 @@ Questions = {
       "Lotte"
     ]
   },
+  "v4": {
+    "realName": "Lex",
+    "B": [
+      "Tjeerd",
+      "Harmen",
+      "Ferry"
+    ],
+    "A": [
+      "Jort",
+      "Wout",
+      "Jip"
+    ]
+  },
   "v5": {
     "realName": "Fransisca",
     "B": [
@@ -23,19 +36,6 @@ Questions = {
       "Margaretha",
       "Carolina",
       "Antonia"
-    ]
-  },
-  "v1": {
-    "realName": "Daan",
-    "B": [
-      "Jelle",
-      "Willem",
-      "Mike"
-    ],
-    "A": [
-      "Bart",
-      "Rick",
-      "Tom"
     ]
   },
   "v3": {
@@ -51,17 +51,17 @@ Questions = {
       "Joep"
     ]
   },
-  "v4": {
-    "realName": "Lex",
+  "v1": {
+    "realName": "Daan",
     "B": [
-      "Tjeerd",
-      "Harmen",
-      "Ferry"
+      "Jelle",
+      "Willem",
+      "Mike"
     ],
     "A": [
-      "Jort",
-      "Wout",
-      "Jip"
+      "Bart",
+      "Rick",
+      "Tom"
     ]
   }
 }

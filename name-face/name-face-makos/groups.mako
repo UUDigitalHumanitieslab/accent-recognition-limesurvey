@@ -32,11 +32,11 @@
 <row>
     <gid><![CDATA[${i}]]></gid>
     <sid><![CDATA[${survey_id}]]></sid>
-    <group_name><![CDATA[Q${Q}]]></group_name>
+    <group_name><![CDATA[Naam Vraag]]></group_name>
     <group_order><![CDATA[${i}]]></group_order>
     <description/>
     <language><![CDATA[en]]></language>
-    <randomization_group/>
+    <randomization_group>1</randomization_group>
     <grelevance/>
 </row>
 % endfor

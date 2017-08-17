@@ -4,10 +4,8 @@
     <list default="true" id="5af8202b-247b-4b92-abf5-851369390575" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/name-face-makos/groups.mako" afterPath="$PROJECT_DIR$/../name-face/name-face-makos/groups.mako" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/name-face-makos/questions.mako" afterPath="$PROJECT_DIR$/../name-face/name-face-makos/questions.mako" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/results/questions.js" afterPath="$PROJECT_DIR$/../name-face/results/questions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/results/survey_9000.lss" afterPath="$PROJECT_DIR$/../name-face/results/survey_9000.lss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/question-style.css" afterPath="$PROJECT_DIR$/../name-face/static-files/question-style.css" />
     </list>
     <ignored path="$USER_HOME$/.tmp/" />
     <ignored path="$USER_HOME$/temp/" />
@@ -42,7 +40,7 @@
       <file leaf-file-name="questions.mako" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/questions.mako">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
+            <state relative-caret-position="657">
               <caret line="116" column="30" lean-forward="true" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
               <folding />
             </state>
@@ -52,8 +50,8 @@
       <file leaf-file-name="groups.mako" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/groups.mako">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+            <state relative-caret-position="594">
+              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -662,7 +660,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/questions.mako">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
+        <state relative-caret-position="657">
           <caret line="116" column="30" lean-forward="true" selection-start-line="116" selection-start-column="30" selection-end-line="116" selection-end-column="30" />
           <folding />
         </state>
@@ -670,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/groups.mako">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state relative-caret-position="594">
+          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding />
         </state>
       </provider>
