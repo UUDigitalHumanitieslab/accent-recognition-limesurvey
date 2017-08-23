@@ -1,4 +1,4 @@
-var ROOT =  "https://localhost:3000/name-face/static-files/";
+var ROOT =  "https://dhstatic.hum.uu.nl/name-face/";
 
 var imgDimensions = [300, 450];
 
@@ -30,6 +30,8 @@ function makeSelection(questions){
     return results;
 }
 
+
+
 /**
  *
  * @param question, json describing a question. see make selection for structure
@@ -42,6 +44,46 @@ function formatSelection(question, selectedGroup){
     }
 }
 
+
+function showScore(questions, givenAnswers){
+    var feedback = getFeedback(questions, givenAnswers);
+    var questionContainer = $('.question-title-container');
+    var answerContainer = $('.answer-container');
+    answerContainer.find(':first-child').hide();
+    questionContainer.html(`<div class="feedback">${feedback}</div>`);
+}
+
+/**
+ * Gives feedback on how well the user did
+ * @param questions the questions
+ * @param givenAnswsers the answers that the user gave
+ */
+function getFeedback(questions, givenAnswers){
+    var msg = "";
+    score = calculateScore(questions, givenAnswers)
+    if(score >= 0.25){
+        msg = "Je hebt beter gekozen dan kans"
+    } else {
+        msg = "Je hebt slechter gekozen dan kans"
+    }
+    return msg;
+}
+
+/**
+ *  Calculates the score of the user
+ *
+ */
+function calculateScore(questions, givenAnswers){
+    totalCorrect = 0
+    for(i in givenAnswers){
+        if(givenAnswers[i] == questions[i]["realName"]){
+            totalCorrect++;
+        }
+
+    }
+    return totalCorrect/Object.keys(questions).length;
+
+}
 
 
 function shuffle (array) {
@@ -74,7 +116,7 @@ function addSpaces(str){
 }
 
 function generateRadioInput(str){
-    return  `<input class="ans-option" type="radio" name="ans" value="${str}">${str}  `
+    return  ` <div class="ans-style"><input type="radio" class="ans-option" name="ans" value="${str}">${str}</div><br> `
 }
 
 function arrayToStr(ar){
@@ -87,20 +129,23 @@ function arrayToStr(ar){
 }
 
 
+
 function generateQuestion(questionId, selection){
-    console.log(selection)
-    var answerContainer = $('.answer-container')
-    //Put the data in the question
-    //answerContainer.append("<data src='" + ROOT + "data/" + questionId + ".jpg'>")
-    answerContainer.append(`<img src='${ROOT}img/${questionId}.jpg' width=${imgDimensions[0]} height=${imgDimensions[1]}>`)
+    console.log(selection);
+    var answerContainer = $('.answer-container');
+    answerContainer.find(':first-child').hide();
+    answerContainer.append(`
+<div class="col-sm-4 col-sm-offset-2"><img src='${ROOT}img/${questionId}.jpg' width=${imgDimensions[0]} height=${imgDimensions[1]}></div>
+`)
     //Put the answers in the question
     var answers = selection['answers']
     shuffle(answers)
     radioButtons = answers.map(generateRadioInput);
-    radioButtons[1] = `${radioButtons[1]} <br>`;
     answerContainer.append(`
         <form action="">
+        <div>
           ${arrayToStr(radioButtons)}
+         </div>
         </form>
     `)
 

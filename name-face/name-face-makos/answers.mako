@@ -64,7 +64,7 @@
     <row>
         <qid><![CDATA[${education_question_id}]]></qid>
         <code>4</code>
-        <answer>WVO</answer>
+        <answer>VWO</answer>
         <sortorder>4</sortorder>
         <assessment_value>1</assessment_value>
         <language>en</language>

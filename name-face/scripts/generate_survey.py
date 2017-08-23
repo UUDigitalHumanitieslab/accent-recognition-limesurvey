@@ -4,7 +4,7 @@ from .generators import *
 from .providers import *
 
 
-settings_provider = JsonRefProvider("./data/deploy-settings.json")
+settings_provider = JsonRefProvider("./data/develop-settings.json")
 metadata_provider = ParsedMetadataProvider(Parser)
 generators = [JsGenerator, ImgGenerator, SurveyGenerator]
 creator = SurveyCreator(settings_provider, metadata_provider, generators)

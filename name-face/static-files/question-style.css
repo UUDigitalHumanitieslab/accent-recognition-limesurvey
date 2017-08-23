@@ -1,11 +1,21 @@
 .answer-container{
     text-align: center;
      font-size: 24px;
+
 }
 .asterisk{
     display: None;
 }
 
 .question-text{
-    font-size: 26px;
+    font-size: 24px;
 }
+
+.ans-style{
+     float: left;
+}
+
+.form-control.textarea.empty{
+    display: none;
+}
+

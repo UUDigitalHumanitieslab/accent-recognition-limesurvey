@@ -1,10 +1,18 @@
 .answer-container{
-     font-size: 16px;
+     font-size: 24px;
 }
 .asterisk{
     display: None;
 }
 
 .question-text{
-    font-size: 18px;
+    font-size: 24px;
+}
+
+.label-text{
+    margin-top: -34px;
+}
+
+.form-control.text.input-sm.empty{
+    margin-top: 10px;
 }
