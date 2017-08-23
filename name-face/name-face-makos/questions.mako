@@ -169,4 +169,30 @@ $(document).ready(function(){
     <same_default>0</same_default>
     <relevance>1</relevance>
 </row>
+<%
+    feedback_id = starting_question_id + len(questions) + 5
+    feedback_group_id =  starting_group_id + len(questions) + 3
+%>
+<row>
+    <qid><![CDATA[${feedback_id}]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[${survey_id}]]></sid>
+    <gid><![CDATA[${feedback_group_id}]]></gid>
+    <type>L</type>
+    <title></title>
+    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
+    <preg/>
+    <help/>
+    <other>N</other>
+    <mandatory>Y</mandatory>
+    <question_order>1</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+</row>
+
+
+
+
 

@@ -53,3 +53,17 @@
     <randomization_group/>
     <grelevance/>
 </row>
+
+<%
+    feedback_group_id = last_question_group_id + 1
+%>
+<row>
+    <gid><![CDATA[${feedback_group_id}]]></gid>
+    <sid><![CDATA[${survey_id}]]></sid>
+    <group_name>Score</group_name>
+    <group_order><![CDATA[${feedback_group_id}]]></group_order>
+    <description/>
+    <language>en</language>
+    <randomization_group/>
+    <grelevance/>
+</row>

@@ -220,6 +220,18 @@
     <randomization_group/>
     <grelevance/>
 </row>
+
+
+<row>
+    <gid><![CDATA[9]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name>Score</group_name>
+    <group_order><![CDATA[9]]></group_order>
+    <description/>
+    <language>en</language>
+    <randomization_group/>
+    <grelevance/>
+</row>
         </rows>
     </groups>
     <questions>
@@ -545,6 +557,29 @@ $(document).ready(function(){
     <same_default>0</same_default>
     <relevance>1</relevance>
 </row>
+
+<row>
+    <qid><![CDATA[1010]]></qid>
+    <parent_qid>0</parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[9]]></gid>
+    <type>L</type>
+    <title></title>
+    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <preg/>
+    <help/>
+    <other>N</other>
+    <mandatory>Y</mandatory>
+    <question_order>1</question_order>
+    <language>en</language>
+    <scale_id>0</scale_id>
+    <same_default>0</same_default>
+    <relevance>1</relevance>
+</row>
+
+
+
+
 
 
         </rows>
