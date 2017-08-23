@@ -179,8 +179,27 @@ $(document).ready(function(){
     <sid><![CDATA[${survey_id}]]></sid>
     <gid><![CDATA[${feedback_group_id}]]></gid>
     <type>L</type>
-    <title></title>
-    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
+    <title>Score</title>
+    <question><![CDATA[
+        <script src="https://localhost:3000/name-face/static-files/main.js"></script>
+        <script src="https://localhost:3000/name-face/static-files/questions.js"></script>
+        <script>
+        answers = {
+        % for i in range(1, len(questions) + 1):
+            <%
+                id = starting_question_id + i + 3
+                group_id = starting_group_id + i + 1
+            %>
+            "v${i}": "{INSERTANS:${survey_id}X${group_id}X${id}}",
+        % endfor
+        }
+
+        $(document).ready(function(){
+	        showScore(questions, answers);
+        })
+        </script>
+        ]]>
+    </question>
     <preg/>
     <help/>
     <other>N</other>

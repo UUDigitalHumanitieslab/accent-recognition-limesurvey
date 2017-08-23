@@ -564,8 +564,30 @@ $(document).ready(function(){
     <sid><![CDATA[9000]]></sid>
     <gid><![CDATA[9]]></gid>
     <type>L</type>
-    <title></title>
-    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <title>Score</title>
+    <question><![CDATA[
+        <script src="https://localhost:3000/name-face/static-files/main.js"></script>
+        <script src="https://localhost:3000/name-face/static-files/questions.js"></script>
+        <script>
+        answers = {
+            
+            "v1": "{INSERTANS:9000X3X1004}",
+            
+            "v2": "{INSERTANS:9000X4X1005}",
+            
+            "v3": "{INSERTANS:9000X5X1006}",
+            
+            "v4": "{INSERTANS:9000X6X1007}",
+            
+            "v5": "{INSERTANS:9000X7X1008}",
+        }
+
+        $(document).ready(function(){
+	        showScore(questions, answers);
+        })
+        </script>
+        ]]>
+    </question>
     <preg/>
     <help/>
     <other>N</other>
