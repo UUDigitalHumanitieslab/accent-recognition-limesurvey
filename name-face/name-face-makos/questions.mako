@@ -6,15 +6,15 @@
     <type><![CDATA[T]]></type>
     <title><![CDATA[intro]]></title>
     <question><![CDATA[
-        <p>Welkom bij deze survey.</p>
+        <p>Welkom bij dit onderzoek naar de vraag of je bij een gezicht de juiste voornaam kunt kiezen.</p>
 
-<p>Zometeen vragen we je eerst om persoonlijke gegevens.</p>
+<p>Eerst vragen we een paar persoonlijke gegevens (leeftijd, geslacht, opleiding).
+Daarna krijg je steeds een gezicht te zien met daarbij 4 voornamen.
+    Aan jou de taak om de voornaam te selecteren die volgens jou het beste bij het gezicht past.</p>
 
-<p>Daarna krijg je steeds 1 portrait te zien met 4 namen. Aan jou de taak om de naam te selecteren die bij de foto hoort.</p>
+        <p>Aan het einde van de test krijg je te horen of je beter dan kans de juiste voornaam bij een gezicht kunt kiezen.</p>
 
-<p>Aan het einde van de survey krijg je te horen hoe goed je bent in het matchen van namen en gezichten</p>
-
-<p>Success!</p>
+        <p>Veel succes!</p>
 
 <script src="${name_js_file_ref}"></script><script src="${main_js_file_ref}"></script>
         <link rel="stylesheet" type="text/css" href="${intro_question_css_file_ref}">
@@ -56,7 +56,7 @@ $(document).ready(function(){
     <gid><![CDATA[${group_id}]]></gid>
     <type>L</type>
     <title>Geslacht</title>
-    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
+    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href="${personal_questions_css_file_ref}">]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -74,7 +74,7 @@ $(document).ready(function(){
     <gid><![CDATA[${group_id}]]></gid>
     <type>L</type>
     <title>opleiding</title>
-    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
+    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href="${personal_questions_css_file_ref}">]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -93,7 +93,7 @@ $(document).ready(function(){
     <gid><![CDATA[${group_id}]]></gid>
     <type>N</type>
     <title>leeftijd</title>
-    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href=${personal_questions_css_file_ref}>]]></question>
+    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href="${personal_questions_css_file_ref}">]]></question>
     <preg/>
     <help/>
     <other>N</other>
@@ -118,10 +118,10 @@ $(document).ready(function(){
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr${id}]]></title>
     <question><![CDATA[
-        <p>Welke naam past bij de foto?</p>
+        <p>Welke voornaam past het best bij het gezicht?</p>
         <script src="${main_js_file_ref}">
 </script>
-        <link rel="stylesheet" type="text/css" href=${css_file_ref}>
+        <link rel="stylesheet" type="text/css" href="${css_file_ref}">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -183,7 +183,7 @@ $(document).ready(function(){
     <question><![CDATA[
         <script src="${main_js_file_ref}"></script>
         <script src="${name_js_file_ref}"></script>
-        <script src="${score_css}"></script>
+        <link rel="stylesheet" type="text/css" href="${score_css}">
         <script>
         answers = {
         % for i in range(1, len(questions) + 1):

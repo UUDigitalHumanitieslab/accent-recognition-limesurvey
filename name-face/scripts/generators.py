@@ -44,6 +44,7 @@ class JsGenerator(AbstractGenerator):
         with open("{}/questions.js".format(output_location), "w+") as f:
             f.write("Questions = ")
             json.dump(parsing_result["questions"], f, indent=2)
+            f.write("\n var questions = Questions")
 
 
 class SurveyGenerator(AbstractGenerator):

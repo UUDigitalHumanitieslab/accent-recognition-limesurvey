@@ -264,18 +264,18 @@
     <type><![CDATA[T]]></type>
     <title><![CDATA[intro]]></title>
     <question><![CDATA[
-        <p>Welkom bij deze survey.</p>
+        <p>Welkom bij dit onderzoek naar de vraag of je bij een gezicht de juiste voornaam kunt kiezen.</p>
 
-<p>Zometeen vragen we je eerst om persoonlijke gegevens.</p>
+<p>Eerst vragen we een paar persoonlijke gegevens (leeftijd, geslacht, opleiding).
+Daarna krijg je steeds een gezicht te zien met daarbij 4 voornamen.
+    Aan jou de taak om de voornaam te selecteren die volgens jou het beste bij het gezicht past.</p>
 
-<p>Daarna krijg je steeds 1 portrait te zien met 4 namen. Aan jou de taak om de naam te selecteren die bij de foto hoort.</p>
+        <p>Aan het einde van de test krijg je te horen of je beter dan kans de juiste voornaam bij een gezicht kunt kiezen.</p>
 
-<p>Aan het einde van de survey krijg je te horen hoe goed je bent in het matchen van namen en gezichten</p>
+        <p>Veel succes!</p>
 
-<p>Success!</p>
-
-<script src="https://localhost:3000/name-face/static-files/questions.js"></script><script src="https://localhost:3000/name-face/static-files/main.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/intro-question-style.css">
+<script src="https://dhstatic.hum.uu.nl/name-face/questions.js"></script><script src="https://dhstatic.hum.uu.nl/name-face/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/intro-question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -308,7 +308,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>L</type>
     <title>Geslacht</title>
-    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css">]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -326,7 +326,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>L</type>
     <title>opleiding</title>
-    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css">]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -345,7 +345,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>N</type>
     <title>leeftijd</title>
-    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css">]]></question>
     <preg/>
     <help/>
     <other>N</other>
@@ -366,10 +366,10 @@ $(document).ready(function(){
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1004]]></title>
     <question><![CDATA[
-        <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -402,10 +402,10 @@ $(document).ready(function(){
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1005]]></title>
     <question><![CDATA[
-        <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -438,10 +438,10 @@ $(document).ready(function(){
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1006]]></title>
     <question><![CDATA[
-        <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -474,10 +474,10 @@ $(document).ready(function(){
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1007]]></title>
     <question><![CDATA[
-        <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -510,10 +510,10 @@ $(document).ready(function(){
     <type><![CDATA[T]]></type>
     <title><![CDATA[vr1008]]></title>
     <question><![CDATA[
-        <p>Welke naam past bij de foto?</p>
-        <script src="https://localhost:3000/name-face/static-files/main.js">
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/question-style.css>
+        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -546,7 +546,7 @@ $(document).ready(function(){
     <gid><![CDATA[8]]></gid>
     <type>L</type>
     <title>Eindvraag</title>
-    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
+    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css>]]></question>
     <preg/>
     <help/>
     <other>N</other>
@@ -566,9 +566,9 @@ $(document).ready(function(){
     <type>L</type>
     <title>Score</title>
     <question><![CDATA[
-        <script src="https://localhost:3000/name-face/static-files/main.js"></script>
-        <script src="https://localhost:3000/name-face/static-files/questions.js"></script>
-        <script src="https://localhost:3000/name-face/static-files/score-style.css"></script>
+        <script src="https://dhstatic.hum.uu.nl/name-face/main.js"></script>
+        <script src="https://dhstatic.hum.uu.nl/name-face/questions.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/score-style.css">
         <script>
         answers = {
             
@@ -747,9 +747,8 @@ $(document).ready(function(){
             <row>
                 <surveyls_survey_id><![CDATA[900000]]></surveyls_survey_id>
                 <surveyls_language><![CDATA[en]]></surveyls_language>
-                <surveyls_title><![CDATA[nameface demo]]></surveyls_title>
-                <surveyls_description><![CDATA[Een demo om de mogelijkheden van limesurvey te tonen voor het nameface
-                    project]]>
+                <surveyls_title><![CDATA[Nameface online test]]></surveyls_title>
+                <surveyls_description><![CDATA[Een online test voor onderzoek naar gezicht en voornaam]]>
                 </surveyls_description>
                 <surveyls_welcometext/>
                 <surveyls_endtext/>

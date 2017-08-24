@@ -1,3 +1,8 @@
 .group-description, .answer-container, .question-help-container{
     display: none;
 }
+
+
+.feedback{
+    font-size: 24px;
+}

@@ -13,5 +13,6 @@
   "name_js_file_ref": "https://dhstatic.hum.uu.nl/name-face/questions.js",
   "css_file_ref": "https://dhstatic.hum.uu.nl/name-face/question-style.css",
   "personal_questions_css_file_ref": "https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css",
-  "intro_question_css_file_ref": "https://dhstatic.hum.uu.nl/name-face/intro-question-style.css"
+  "intro_question_css_file_ref": "https://dhstatic.hum.uu.nl/name-face/intro-question-style.css",
+  "score_css": "https://dhstatic.hum.uu.nl/name-face/score-style.css"
 }

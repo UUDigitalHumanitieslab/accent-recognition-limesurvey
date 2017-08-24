@@ -3,3 +3,11 @@
 .group-description, .answer-container, .question-help-container{
     display: none;
 }
+
+.question-text{
+    font-size: 24px;
+}
+
+p{
+    margin-bottom: 24px;
+}

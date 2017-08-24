@@ -50,7 +50,7 @@ function showScore(questions, givenAnswers){
     var questionContainer = $('.question-title-container');
     var answerContainer = $('.answer-container');
     answerContainer.find(':first-child').hide();
-    questionContainer.html(`<div class="feedback">${feedback}</div>`);
+    questionContainer.append(`<div class="feedback">${feedback}</div>`);
 }
 
 /**
@@ -62,9 +62,9 @@ function getFeedback(questions, givenAnswers){
     var msg = "";
     score = calculateScore(questions, givenAnswers)
     if(score >= 0.25){
-        msg = "Je hebt beter gekozen dan kans"
+        msg = "Je hebt beter gekozen dan kans."
     } else {
-        msg = "Je hebt slechter gekozen dan kans"
+        msg = "Je hebt slechter gekozen dan kans."
     }
     return msg;
 }

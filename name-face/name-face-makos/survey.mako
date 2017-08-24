@@ -188,9 +188,8 @@
             <row>
                 <surveyls_survey_id><![CDATA[900000]]></surveyls_survey_id>
                 <surveyls_language><![CDATA[en]]></surveyls_language>
-                <surveyls_title><![CDATA[nameface demo]]></surveyls_title>
-                <surveyls_description><![CDATA[Een demo om de mogelijkheden van limesurvey te tonen voor het nameface
-                    project]]>
+                <surveyls_title><![CDATA[Nameface online test]]></surveyls_title>
+                <surveyls_description><![CDATA[Een online test voor onderzoek naar gezicht en voornaam]]>
                 </surveyls_description>
                 <surveyls_welcometext/>
                 <surveyls_endtext/>
