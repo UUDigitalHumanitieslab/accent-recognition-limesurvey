@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5af8202b-247b-4b92-abf5-851369390575" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/data/develop-settings.json" afterPath="$PROJECT_DIR$/../name-face/data/develop-settings.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/name-face-makos/questions.mako" afterPath="$PROJECT_DIR$/../name-face/name-face-makos/questions.mako" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/results/questions.js" afterPath="$PROJECT_DIR$/../name-face/results/questions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/results/survey_9000.lss" afterPath="$PROJECT_DIR$/../name-face/results/survey_9000.lss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/score-style.css" afterPath="$PROJECT_DIR$/../name-face/static-files/score-style.css" />
     </list>
     <ignored path="$USER_HOME$/.tmp/" />
     <ignored path="$USER_HOME$/temp/" />
@@ -24,91 +24,56 @@
     <favorites_list name="drongo-lime-survey" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../name-face/static-files/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="71" column="3" lean-forward="true" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
-              <folding>
-                <marker date="1503502453299" expanded="true" signature="3727:3811" ph="..." />
-                <marker date="1503502453299" expanded="true" signature="3741:3795" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questions.mako" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/questions.mako">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="150" column="41" lean-forward="false" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="groups.mako" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/groups.mako">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1098">
-              <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="survey_9000.lss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../name-face/results/survey_9000.lss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="566" column="11" lean-forward="false" selection-start-line="566" selection-start-column="11" selection-end-line="566" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="survey.mako" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/survey.mako">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deploy-settings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../name-face/data/deploy-settings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="develop-settings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../name-face/data/develop-settings.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="questions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../name-face/static-files/questions.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="intro-question-style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../name-face/static-files/intro-question-style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="72">
+                  <caret line="4" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="score-style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../name-face/static-files/score-style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="questions.mako" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/questions.mako">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="801">
+                  <caret line="197" column="37" lean-forward="true" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="develop-settings.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../name-face/data/develop-settings.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="15" column="106" lean-forward="false" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="106" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,9 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/name-face/scripts/data/settings.json" />
-        <option value="$USER_HOME$/name-face/scripts/providers.py" />
-        <option value="$USER_HOME$/name-face/scripts/survey_creator.py" />
         <option value="$USER_HOME$/name-face/scripts/main.py" />
         <option value="$USER_HOME$/name-face/scripts/generators.py" />
         <option value="$USER_HOME$/app.js" />
@@ -188,28 +150,31 @@
         <option value="$USER_HOME$/name-face/name-face-makos/groups.mako" />
         <option value="$USER_HOME$/name-face/name-face-makos/answers.mako" />
         <option value="$USER_HOME$/name-face/name-face-makos/questions.mako" />
+        <option value="$USER_HOME$/name-face/static-files/question-style.css" />
+        <option value="$USER_HOME$/name-face/static-files/personal-questions-style.css" />
+        <option value="$USER_HOME$/name-face/name-face-makos/questions.mako" />
+        <option value="$USER_HOME$/name-face/data/settings.json" />
+        <option value="$USER_HOME$/name-face/static-files/intro-question-style.css" />
+        <option value="$USER_HOME$/name-face/name-face-makos/groups.mako" />
+        <option value="$USER_HOME$/name-face/scripts/generate_survey.py" />
+        <option value="$USER_HOME$/dialect/answer.txt" />
+        <option value="$USER_HOME$/name-face/data/deploy-settings.json" />
+        <option value="$USER_HOME$/name-face/cp_to_server.sh" />
+        <option value="$USER_HOME$/name-face/static-files/main.js" />
+        <option value="$USER_HOME$/name-face/static-files/cp_to_server.sh" />
+        <option value="$USER_HOME$/name-face/name-face-makos/answers.mako" />
+        <option value="$PROJECT_DIR$/../../name-face/scripts/generate_survey.py" />
+        <option value="$PROJECT_DIR$/../../name-face/static-files/tests.js" />
+        <option value="$PROJECT_DIR$/../../name-face/static-files/questions.js" />
         <option value="$PROJECT_DIR$/../../name-face/static-files/question-style.css" />
         <option value="$PROJECT_DIR$/../../name-face/static-files/personal-questions-style.css" />
-        <option value="$PROJECT_DIR$/../../name-face/name-face-makos/questions.mako" />
-        <option value="$PROJECT_DIR$/../../name-face/data/settings.json" />
-        <option value="$PROJECT_DIR$/../../name-face/static-files/intro-question-style.css" />
-        <option value="$PROJECT_DIR$/../../name-face/name-face-makos/groups.mako" />
-        <option value="$PROJECT_DIR$/../../name-face/scripts/generate_survey.py" />
-        <option value="$PROJECT_DIR$/../../dialect/answer.txt" />
-        <option value="$PROJECT_DIR$/../../name-face/data/deploy-settings.json" />
-        <option value="$PROJECT_DIR$/../../name-face/cp_to_server.sh" />
         <option value="$PROJECT_DIR$/../../name-face/static-files/main.js" />
-        <option value="$PROJECT_DIR$/../../name-face/static-files/cp_to_server.sh" />
-        <option value="$PROJECT_DIR$/../../name-face/name-face-makos/answers.mako" />
-        <option value="$PROJECT_DIR$/../name-face/scripts/generate_survey.py" />
-        <option value="$PROJECT_DIR$/../name-face/static-files/tests.js" />
-        <option value="$PROJECT_DIR$/../name-face/static-files/questions.js" />
-        <option value="$PROJECT_DIR$/../name-face/static-files/question-style.css" />
-        <option value="$PROJECT_DIR$/../name-face/static-files/personal-questions-style.css" />
-        <option value="$PROJECT_DIR$/../name-face/static-files/main.js" />
-        <option value="$PROJECT_DIR$/../name-face/name-face-makos/groups.mako" />
-        <option value="$PROJECT_DIR$/../name-face/results/survey_9000.lss" />
+        <option value="$PROJECT_DIR$/../../name-face/name-face-makos/groups.mako" />
+        <option value="$PROJECT_DIR$/../../name-face/results/survey_9000.lss" />
+        <option value="$PROJECT_DIR$/../../name-face/name-face-makos/questions.mako" />
+        <option value="$PROJECT_DIR$/../name-face/static-files/score-style.css" />
         <option value="$PROJECT_DIR$/../name-face/name-face-makos/questions.mako" />
+        <option value="$PROJECT_DIR$/../name-face/data/develop-settings.json" />
       </list>
     </option>
   </component>
@@ -229,10 +194,10 @@
     <handled-path value="$PROJECT_DIR$/../node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1312" />
-    <option name="y" value="24" />
-    <option name="width" value="1248" />
-    <option name="height" value="1416" />
+    <option name="x" value="65" />
+    <option name="y" value="-4" />
+    <option name="width" value="2495" />
+    <option name="height" value="1444" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -419,14 +384,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../name-face/static-files" />
+      <recent name="$USER_HOME$/name-face/static-files" />
       <recent name="$USER_HOME$/name-face/static-files" />
       <recent name="$USER_HOME$/name-face/name-face-makos" />
       <recent name="$USER_HOME$/name-face/static-files" />
       <recent name="$USER_HOME$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../../name-face" />
+      <recent name="$USER_HOME$/name-face" />
       <recent name="$USER_HOME$/name-face/static-files/img" />
       <recent name="$USER_HOME$/name-face/data" />
       <recent name="$USER_HOME$/name-face/scripts/tests/makos" />
@@ -631,7 +596,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1312" y="24" width="1248" height="1416" extended-state="4" />
+    <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976282" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -642,9 +607,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17114228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960477" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -655,6 +619,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960477" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -700,188 +665,81 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/name-face/scripts/generators.py" />
+    <entry file="file://$USER_HOME$/name-face/static-files/tests.html" />
+    <entry file="file://$USER_HOME$/name-face/static-files/questions.js" />
+    <entry file="file://$USER_HOME$/name-face/static-files/question-style.css" />
+    <entry file="file://$USER_HOME$/name-face/static-files/intro-question-style.css" />
+    <entry file="file://$USER_HOME$/name-face/data/settings.json" />
+    <entry file="file://$USER_HOME$/name-face/data/Sanne.jpg" />
     <entry file="file://$USER_HOME$/name-face/results/survey_9000.lss" />
+    <entry file="file://$USER_HOME$/name-face/scripts/generate_survey.py" />
+    <entry file="file://$USER_HOME$/dialect/question.txt" />
+    <entry file="file://$USER_HOME$/dialect/answer.txt" />
+    <entry file="file://$USER_HOME$/dialect/answerFunctions.js" />
+    <entry file="file://$USER_HOME$/dialect/questionFunctions.js" />
+    <entry file="file://$USER_HOME$/dialect/settings.js" />
+    <entry file="file://$USER_HOME$/name-face/data/deploy-settings.json" />
+    <entry file="file://$USER_HOME$/dialect/cp_to_server.txt" />
+    <entry file="file://$USER_HOME$/name-face/static-files/cp_to_server.sh" />
+    <entry file="file://$USER_HOME$/name-face/results/v2.jpg" />
+    <entry file="file://$USER_HOME$/name-face/data/names.txt" />
+    <entry file="file://$USER_HOME$/name-face/results/questions.js" />
+    <entry file="file://$USER_HOME$/name-face/data/Daan.jpg" />
+    <entry file="file://$USER_HOME$/name-face/data/Fransisca.jpg" />
+    <entry file="file://$USER_HOME$/name-face/static-files/main.js" />
+    <entry file="file://$USER_HOME$/name-face/static-files/personal-questions-style.css" />
+    <entry file="file://$USER_HOME$/name-face/name-face-makos/survey.mako" />
+    <entry file="file://$USER_HOME$/name-face/name-face-makos/questions.mako" />
     <entry file="file://$USER_HOME$/name-face/name-face-makos/groups.mako" />
     <entry file="file://$USER_HOME$/name-face/name-face-makos/answers.mako" />
-    <entry file="file://$USER_HOME$/name-face/name-face-makos/questions.mako" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/generators.py" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/name-face-makos/answers.mako" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/intro-question-style.css" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/generate_survey.py" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/example_names.js" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/results/questions.js" />
     <entry file="file://$PROJECT_DIR$/../../name-face/static-files/tests.html" />
     <entry file="file://$PROJECT_DIR$/../../name-face/static-files/questions.js" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/question-style.css" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/intro-question-style.css" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/data/settings.json" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/data/Sanne.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/results/survey_9000.lss" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/generate_survey.py" />
-    <entry file="file://$PROJECT_DIR$/../../dialect/question.txt" />
-    <entry file="file://$PROJECT_DIR$/../../dialect/answer.txt" />
-    <entry file="file://$PROJECT_DIR$/../../dialect/answerFunctions.js" />
-    <entry file="file://$PROJECT_DIR$/../../dialect/questionFunctions.js" />
-    <entry file="file://$PROJECT_DIR$/../../dialect/settings.js" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/data/deploy-settings.json" />
-    <entry file="file://$PROJECT_DIR$/../../dialect/cp_to_server.txt" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/cp_to_server.sh" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/results/v2.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/data/names.txt" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/results/questions.js" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/data/Daan.jpg" />
     <entry file="file://$PROJECT_DIR$/../../name-face/data/Fransisca.jpg" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/main.js" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/data/develop-settings.json" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/question-style.css" />
     <entry file="file://$PROJECT_DIR$/../../name-face/static-files/personal-questions-style.css" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/name-face-makos/survey.mako" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/name-face-makos/questions.mako" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/tests.js" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/score-style.css" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/data/deploy-settings.json" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/main.js" />
     <entry file="file://$PROJECT_DIR$/../../name-face/name-face-makos/groups.mako" />
-    <entry file="file://$PROJECT_DIR$/../../name-face/name-face-makos/answers.mako" />
-    <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/answers.mako">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../name-face/name-face-makos/survey.mako" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/results/survey_9000.lss" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/name-face-makos/questions.mako" />
     <entry file="file://$PROJECT_DIR$/../name-face/static-files/intro-question-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/scripts/generate_survey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/example_names.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/results/questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/tests.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/questions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/data/Fransisca.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/data/develop-settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/question-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/personal-questions-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        <state relative-caret-position="72">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../name-face/static-files/score-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/data/deploy-settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="71" column="3" lean-forward="true" selection-start-line="71" selection-start-column="3" selection-end-line="71" selection-end-column="3" />
-          <folding>
-            <marker date="1503502453299" expanded="true" signature="3727:3811" ph="..." />
-            <marker date="1503502453299" expanded="true" signature="3741:3795" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/groups.mako">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="61" column="39" lean-forward="true" selection-start-line="61" selection-start-column="39" selection-end-line="61" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/survey.mako">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/results/survey_9000.lss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="566" column="11" lean-forward="false" selection-start-line="566" selection-start-column="11" selection-end-line="566" selection-end-column="11" />
+        <state relative-caret-position="36">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../name-face/name-face-makos/questions.mako">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="150" column="41" lean-forward="false" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
+        <state relative-caret-position="801">
+          <caret line="197" column="37" lean-forward="true" selection-start-line="197" selection-start-column="37" selection-end-line="197" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../name-face/data/develop-settings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="106" lean-forward="false" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="106" />
           <folding />
         </state>
       </provider>

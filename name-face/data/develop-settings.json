@@ -13,5 +13,6 @@
   "name_js_file_ref": "https://localhost:3000/name-face/static-files/questions.js",
   "css_file_ref": "https://localhost:3000/name-face/static-files/question-style.css",
   "personal_questions_css_file_ref": "https://localhost:3000/name-face/static-files/personal-questions-style.css",
-  "intro_question_css_file_ref": "https://localhost:3000/name-face/static-files/intro-question-style.css"
+  "intro_question_css_file_ref": "https://localhost:3000/name-face/static-files/intro-question-style.css",
+  "score_css": "https://localhost:3000/name-face/static-files/score-style.css"
 }

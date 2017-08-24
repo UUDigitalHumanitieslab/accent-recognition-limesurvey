@@ -17,7 +17,7 @@
 <p>Success!</p>
 
 <script src="${name_js_file_ref}"></script><script src="${main_js_file_ref}"></script>
-        <link rel="stylesheet" type="text/css" href=${intro_question_css_file_ref}>
+        <link rel="stylesheet" type="text/css" href="${intro_question_css_file_ref}">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -181,8 +181,9 @@ $(document).ready(function(){
     <type>L</type>
     <title>Score</title>
     <question><![CDATA[
-        <script src="https://localhost:3000/name-face/static-files/main.js"></script>
-        <script src="https://localhost:3000/name-face/static-files/questions.js"></script>
+        <script src="${main_js_file_ref}"></script>
+        <script src="${name_js_file_ref}"></script>
+        <script src="${score_css}"></script>
         <script>
         answers = {
         % for i in range(1, len(questions) + 1):
@@ -203,7 +204,7 @@ $(document).ready(function(){
     <preg/>
     <help/>
     <other>N</other>
-    <mandatory>Y</mandatory>
+    <mandatory>N</mandatory>
     <question_order>1</question_order>
     <language>en</language>
     <scale_id>0</scale_id>

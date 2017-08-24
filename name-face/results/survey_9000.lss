@@ -275,7 +275,7 @@
 <p>Success!</p>
 
 <script src="https://localhost:3000/name-face/static-files/questions.js"></script><script src="https://localhost:3000/name-face/static-files/main.js"></script>
-        <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/intro-question-style.css>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/intro-question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -568,6 +568,7 @@ $(document).ready(function(){
     <question><![CDATA[
         <script src="https://localhost:3000/name-face/static-files/main.js"></script>
         <script src="https://localhost:3000/name-face/static-files/questions.js"></script>
+        <script src="https://localhost:3000/name-face/static-files/score-style.css"></script>
         <script>
         answers = {
             
@@ -591,7 +592,7 @@ $(document).ready(function(){
     <preg/>
     <help/>
     <other>N</other>
-    <mandatory>Y</mandatory>
+    <mandatory>N</mandatory>
     <question_order>1</question_order>
     <language>en</language>
     <scale_id>0</scale_id>
