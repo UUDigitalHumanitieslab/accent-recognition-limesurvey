@@ -8,6 +8,8 @@ settings = {
 
     correctAnswerColor: "green",
     yourAnswerColor: "red",
+    goodAnsRange:20,
+    totallyWrong: 100
 };
 
 

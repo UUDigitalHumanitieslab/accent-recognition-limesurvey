@@ -1,0 +1,38 @@
+<script src="https://dhstatic.hum.uu.nl/dialect-drongo/settings.js">
+	</script><script src="https://dhstatic.hum.uu.nl/dialect-drongo/answerFunctions.js">
+	</script><script src="https://dhstatic.hum.uu.nl/dialect-drongo/scoreFunctions.js">
+	</script>
+<link href="https://dhstatic.hum.uu.nl/dialect-drongo/style.css" rel="stylesheet" type="text/css" /><script>
+
+	   correctAnswers = {
+	   "Q1": {
+     lat: 52.0863,
+      lng: 5.12241,
+    },
+          "Q2": {
+      lat: 53.151819,
+      lng: 5.959126,
+      },
+          "Q3":  {
+      lat: 51.533583,
+      lng: 4.960797,
+      },
+              "Q4":  {
+     lat: 51.533583,
+      lng: 4.960797,
+    }
+	  }
+	   console.log(correctAnswers)
+	   givenAnswers = {
+	     "Q1": {INSERTANS:256952X1076X12898},
+         "Q2": {INSERTANS:256952X1077X12900},
+         "Q3": {INSERTANS:256952X1078X12902},
+         "Q4": {INSERTANS:256952X1444X13377}
+	   }
+	   console.log(givenAnswers)
+
+       createFeedback(correctAnswers, givenAnswers, settings)
+
+
+
+	</script>

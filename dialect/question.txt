@@ -13,6 +13,8 @@ Waar in nederland komt het geluid vandaan? <script src="https://dhstatic.hum.uu.
     strokeWeight: 0.5,
     correctAnswerColor: "green",
     yourAnswerColor: "red",
+    goodAnsRange: 20,
+    totallyWrong: 100
     };
 
 

@@ -1,0 +1,2 @@
+scp ./*{.js,css} im-static:
+ssh -t im-static "sudo mv ./*{.js,.css} /hum/web/dhstatic.hum.uu.nl/htdocs/dialect-drongo && sudo chown -R www-data:www-data /hum/web/dhstatic.hum.uu.nl/htdocs/dialect-drongo"
