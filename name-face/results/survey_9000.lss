@@ -264,13 +264,13 @@
     <type><![CDATA[T]]></type>
     <title><![CDATA[intro]]></title>
     <question><![CDATA[
-        <p>Welkom bij dit onderzoek naar de vraag of je bij een gezicht de juiste voornaam kunt kiezen.</p>
+        <p>Kun je bij een gezicht de juiste voornaam kunt kiezen?</p>
 
 <p>Eerst vragen we een paar persoonlijke gegevens (leeftijd, geslacht, opleiding).
 Daarna krijg je steeds een gezicht te zien met daarbij 4 voornamen.
     Aan jou de taak om de voornaam te selecteren die volgens jou het beste bij het gezicht past.</p>
 
-        <p>Aan het einde van de test krijg je te horen of je beter dan kans de juiste voornaam bij een gezicht kunt kiezen.</p>
+        <p>Aan het einde van de test zie je of je het beter dan kans kunt.</p>
 
         <p>Veel succes!</p>
 
@@ -751,7 +751,9 @@ $(document).ready(function(){
                 <surveyls_description><![CDATA[Een online test voor onderzoek naar gezicht en voornaam]]>
                 </surveyls_description>
                 <surveyls_welcometext/>
-                <surveyls_endtext/>
+                <surveyls_endtext>
+                    <![CDATA[<span style="font-size:20px;">Bedankt voor uw deelname!</span><p> </p><a class="btn btn-primary" href="https://survey2.hum.uu.nl/index.php/survey/index/sid/9000/newtest/Y/lang/en">Volgende participant</a>]]>
+                </surveyls_endtext>
                 <surveyls_url/>
                 <surveyls_urldescription/>
                 <surveyls_email_invite_subj><![CDATA[Invitation to participate in a survey]]>

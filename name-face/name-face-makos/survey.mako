@@ -192,7 +192,9 @@
                 <surveyls_description><![CDATA[Een online test voor onderzoek naar gezicht en voornaam]]>
                 </surveyls_description>
                 <surveyls_welcometext/>
-                <surveyls_endtext/>
+                <surveyls_endtext>
+                    <![CDATA[<span style="font-size:20px;">Bedankt voor uw deelname!</span><p> </p><a class="btn btn-primary" href="https://survey2.hum.uu.nl/index.php/survey/index/sid/${survey_id}/newtest/Y/lang/en">Volgende participant</a>]]>
+                </surveyls_endtext>
                 <surveyls_url/>
                 <surveyls_urldescription/>
                 <surveyls_email_invite_subj><![CDATA[Invitation to participate in a survey]]>

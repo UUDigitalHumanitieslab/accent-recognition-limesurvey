@@ -4,6 +4,7 @@
 	</script>
 <link href="https://dhstatic.hum.uu.nl/dialect-drongo/style.css" rel="stylesheet" type="text/css" /><script>
 
+       //Hier de juiste antwoorden invullen
 	   correctAnswers = {
 	   "Q1": {
      lat: 52.0863,
@@ -22,14 +23,14 @@
       lng: 4.960797,
     }
 	  }
-	   console.log(correctAnswers)
+
+	   //Hier de referenties naar de vragen invullen,  let op dat de namen ("Q1", "Q2" etc) moeten matchen
 	   givenAnswers = {
 	     "Q1": {INSERTANS:256952X1076X12898},
          "Q2": {INSERTANS:256952X1077X12900},
          "Q3": {INSERTANS:256952X1078X12902},
          "Q4": {INSERTANS:256952X1444X13377}
 	   }
-	   console.log(givenAnswers)
 
        createFeedback(correctAnswers, givenAnswers, settings)
 

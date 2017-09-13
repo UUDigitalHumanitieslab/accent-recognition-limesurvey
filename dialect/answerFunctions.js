@@ -46,12 +46,17 @@ function initializeAnswer(correctAnswer, answer, givenAnswer) {
 }
 
 function drawLine(coor1, coor2, map) {
+
+    lineColor= (settings.ansLineColor ===undefined) ? "#FF0000" : settings.ansLineColor;
+    opacity= (settings.ansStrokeOpacity ===undefined) ? 1.0 : settings.ansStrokeOpacity;
+    weight= (settings.ansStrokeWeight ===undefined) ? 2 : settings.ansStrokeWeight;
+
     var flightPath = new google.maps.Polyline({
         path: [coor1, coor2],
         geodesic: true,
-        strokeColor: settings.lineColor,
-        strokeOpacity: 1.0,
-        strokeWeight: 2
+        strokeColor: lineColor,
+        strokeOpacity: opacity,
+        strokeWeight: weight
     });
 
     flightPath.setMap(map);
@@ -93,13 +98,13 @@ function showAnswer(correctAnswer, answer, givenAnswer, map) {
 
     if(difference < goodAnsRange){
 
-         $('.answer-container').prepend(`<p>Dat klopt, het juiste antwoord is: ${answer}</p>`)
+         $('.answer-container').prepend(`<p>Dat klopt, het juiste antwoord is ${answer}.</p>`)
          drawMarker(givenAnswer, "Correct answer", map, settings.correctAnswerColor);
     } else {
         drawMarkers(correctAnswer, givenAnswer, map);
         drawLine(correctAnswer, givenAnswer, map);
-        $('.answer-container').prepend(`<p>Het juiste antwoord: ${answer}</p>
-        <p>Het verschil: ${difference} km</p>`);
+        $('.answer-container').prepend(`<p>Het juiste antwoord was ${answer}.</p>
+        <p>Het verschil is ${difference} km.</p>`);
     }
 
 

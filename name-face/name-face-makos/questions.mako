@@ -6,13 +6,13 @@
     <type><![CDATA[T]]></type>
     <title><![CDATA[intro]]></title>
     <question><![CDATA[
-        <p>Welkom bij dit onderzoek naar de vraag of je bij een gezicht de juiste voornaam kunt kiezen.</p>
+        <p>Kun je bij een gezicht de juiste voornaam kiezen?</p>
 
 <p>Eerst vragen we een paar persoonlijke gegevens (leeftijd, geslacht, opleiding).
 Daarna krijg je steeds een gezicht te zien met daarbij 4 voornamen.
     Aan jou de taak om de voornaam te selecteren die volgens jou het beste bij het gezicht past.</p>
 
-        <p>Aan het einde van de test krijg je te horen of je beter dan kans de juiste voornaam bij een gezicht kunt kiezen.</p>
+        <p>Aan het einde van de test zie je of je het beter dan kans kunt.</p>
 
         <p>Veel succes!</p>
 
