@@ -1,3 +1,16 @@
+var finalSettings = { //The final settings for the map appearence
+    mapColor: "#0000ff",
+    lineColor: "#FF0000",
+	opacity: 0,
+    strokeColor: "black",
+    strokeOpacity: 1,
+    strokeWeight: 0.8,
+    correctAnswerColor: "green",
+    yourAnswerColor: "red",
+    goodAnsRange: 20,
+    totallyWrong: 100
+};
+
 function initializePolygons(provincies, map) {
     var polygons = [];
     for (prov in provincies) {
@@ -7,11 +20,11 @@ function initializePolygons(provincies, map) {
             });
             var poly = new google.maps.Polygon({
                 paths: paths,
-                strokeColor: settings.strokeColor,
-                strokeOpacity: settings.strokeOpacity,
-                strokeWeight: settings.strokeWeight,
-                fillColor: settings.mapColor,
-                fillOpacity: settings.opacity
+                strokeColor: finalSettings.strokeColor,
+                strokeOpacity: finalSettings.strokeOpacity,
+                strokeWeight: finalSettings.strokeWeight,
+                fillColor: finalSettings.mapColor,
+                fillOpacity: finalSettings.opacity
             });
 
             poly.setMap(map);

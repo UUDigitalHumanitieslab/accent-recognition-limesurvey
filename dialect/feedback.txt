@@ -4,36 +4,93 @@
 	</script>
 <link href="https://dhstatic.hum.uu.nl/dialect-drongo/style.css" rel="stylesheet" type="text/css" /><script>
 
-       //Hier de juiste antwoorden invullen
-	   correctAnswers = {
-	   "Q1": {
-     lat: 52.0863,
-      lng: 5.12241,
-    },
-          "Q2": {
-      lat: 53.151819,
-      lng: 5.959126,
-      },
-          "Q3":  {
-      lat: 51.533583,
-      lng: 4.960797,
-      },
-              "Q4":  {
-     lat: 51.533583,
-      lng: 4.960797,
+       //Hier de juiste antwoorden invullen per vraag invullen. Let op dat de vraag in de juiste group moeten staan
+    correctAnswers = {
+       1: {
+        "G1": {
+             lat: 51.32736,
+          	lng: 3.48872
+         },
+         "G2": {
+            lat: 51.92456,
+            lng: 4.48457
+          }
+        },
+        2: {
+           "G1":{
+          		lat: 51.32736,
+      			lng: 3.48872
+        	},
+      		"G2": {
+          			lat: 51.92456,
+      				lng: 4.48457
+        	}
+          },
+        3:{
+          "G1": {
+             lat: 51.50448,
+            lng: 3.89006
+          },
+          "G2": {
+            	lat: 52.12701,
+      			lng: 4.67434
+          }
+
+        },
+        4:{
+			"G1":{
+                   lat: 51.50448,
+      				lng: 3.89006
+            },
+            "G2": {
+                  lat: 52.12701,
+                  lng: 4.67434
+            }
+        }
+
     }
-	  }
 
-	   //Hier de referenties naar de vragen invullen,  let op dat de namen ("Q1", "Q2" etc) moeten matchen
-	   givenAnswers = {
-	     "Q1": {INSERTANS:256952X1076X12898},
-         "Q2": {INSERTANS:256952X1077X12900},
-         "Q3": {INSERTANS:256952X1078X12902},
-         "Q4": {INSERTANS:256952X1444X13377}
-	   }
+    //Hier de referenties naar de random vraag invullen
+    group = {INSERTANS:938651X1671X13763}
 
-       createFeedback(correctAnswers, givenAnswers, settings)
+    //Hier de antwoorden van de vraag invullen,  let op dat de namen ("Q1", "Q2" etc) moeten matchen met correctAnswers
+    givenAnswers = {
+    1: {
+        "G1": '{INSERTANS:938651X1671X13755}',
+         "G2": '{INSERTANS:938651X1673X13770}'
+     },
+        2: {
+           "G1": '{INSERTANS:938651X1671X13764}',
+      		"G2": '{INSERTANS:938651X1673X13772}'
+          },
+        3:{
+          "G1": '{INSERTANS:938651X1673X13774}',
+          "G2": '{INSERTANS:938651X1673X13774}'
+
+        },
+        4:{
+			"G1": '{INSERTANS:938651X1671X13769}',
+            "G2": '{INSERTANS:938651X1673X13776}'
+        }
+
+
+    }
+
+    settings = {
+          mapColor: "#0000ff",
+        lineColor: "#FF0000",
+        opacity: 0,
+        strokeColor: "black",
+        strokeOpacity: 1,
+        strokeWeight: 0.8,
+        correctAnswerColor: "green",
+        yourAnswerColor: "red",
+        goodAnsRange: 20,
+        totallyWrong: 185
+    }
+
+    createFeedback(correctAnswers, givenAnswers, group, settings)
 
 
 
-	</script>
+</script>

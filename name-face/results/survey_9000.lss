@@ -100,7 +100,7 @@
         <scale_id>0</scale_id>
     </row>
     <row>
-        <qid><![CDATA[1009]]></qid>
+        <qid><![CDATA[1019]]></qid>
         <code>1</code>
         <answer>Ja</answer>
         <sortorder>1</sortorder>
@@ -109,7 +109,7 @@
         <scale_id>0</scale_id>
     </row>
     <row>
-        <qid><![CDATA[1009]]></qid>
+        <qid><![CDATA[1019]]></qid>
         <code>2</code>
         <answer>Nee</answer>
         <sortorder>2</sortorder>
@@ -209,12 +209,122 @@
     <randomization_group>1</randomization_group>
     <grelevance/>
 </row>
-
+    
 <row>
     <gid><![CDATA[8]]></gid>
     <sid><![CDATA[9000]]></sid>
-    <group_name>Laatste Vraag</group_name>
+    <group_name><![CDATA[Vraag]]></group_name>
     <group_order><![CDATA[8]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[9]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[9]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[10]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[10]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[11]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[11]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[12]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[12]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[13]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[13]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[14]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[14]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[15]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[15]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[16]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[16]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+    
+<row>
+    <gid><![CDATA[17]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name><![CDATA[Vraag]]></group_name>
+    <group_order><![CDATA[17]]></group_order>
+    <description/>
+    <language><![CDATA[en]]></language>
+    <randomization_group>1</randomization_group>
+    <grelevance/>
+</row>
+
+<row>
+    <gid><![CDATA[18]]></gid>
+    <sid><![CDATA[9000]]></sid>
+    <group_name>Laatste Vraag</group_name>
+    <group_order><![CDATA[18]]></group_order>
     <description/>
     <language>en</language>
     <randomization_group/>
@@ -223,10 +333,10 @@
 
 
 <row>
-    <gid><![CDATA[9]]></gid>
+    <gid><![CDATA[19]]></gid>
     <sid><![CDATA[9000]]></sid>
     <group_name>Score</group_name>
-    <group_order><![CDATA[9]]></group_order>
+    <group_order><![CDATA[19]]></group_order>
     <description/>
     <language>en</language>
     <randomization_group/>
@@ -264,7 +374,7 @@
     <type><![CDATA[T]]></type>
     <title><![CDATA[intro]]></title>
     <question><![CDATA[
-        <p>Kun je bij een gezicht de juiste voornaam kunt kiezen?</p>
+        <p>Kun je bij een gezicht de juiste voornaam kiezen?</p>
 
 <p>Eerst vragen we een paar persoonlijke gegevens (leeftijd, geslacht, opleiding).
 Daarna krijg je steeds een gezicht te zien met daarbij 4 voornamen.
@@ -274,8 +384,8 @@ Daarna krijg je steeds een gezicht te zien met daarbij 4 voornamen.
 
         <p>Veel succes!</p>
 
-<script src="https://dhstatic.hum.uu.nl/name-face/questions.js"></script><script src="https://dhstatic.hum.uu.nl/name-face/main.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/intro-question-style.css">
+<script src="https://localhost:3000/name-face/static-files/questions.js"></script><script src="https://localhost:3000/name-face/static-files/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/intro-question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -308,7 +418,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>L</type>
     <title>Geslacht</title>
-    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css">]]></question>
+    <question><![CDATA[Geslacht: <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/personal-questions-style.css">]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -326,7 +436,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>L</type>
     <title>opleiding</title>
-    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css">]]></question>
+    <question><![CDATA[Wat is je hoogst genoten opleiding? <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/personal-questions-style.css">]]></question>
     <preg/>
     <help/>
     <other>Y</other>
@@ -345,7 +455,7 @@ $(document).ready(function(){
     <gid><![CDATA[2]]></gid>
     <type>N</type>
     <title>leeftijd</title>
-    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css">]]></question>
+    <question><![CDATA[Wat is je leeftijd? <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/personal-questions-style.css">]]></question>
     <preg/>
     <help/>
     <other>N</other>
@@ -367,9 +477,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1004]]></title>
     <question><![CDATA[
         <p>Welke voornaam past het best bij het gezicht?</p>
-        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -403,9 +513,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1005]]></title>
     <question><![CDATA[
         <p>Welke voornaam past het best bij het gezicht?</p>
-        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -439,9 +549,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1006]]></title>
     <question><![CDATA[
         <p>Welke voornaam past het best bij het gezicht?</p>
-        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -475,9 +585,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1007]]></title>
     <question><![CDATA[
         <p>Welke voornaam past het best bij het gezicht?</p>
-        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -511,9 +621,9 @@ $(document).ready(function(){
     <title><![CDATA[vr1008]]></title>
     <question><![CDATA[
         <p>Welke voornaam past het best bij het gezicht?</p>
-        <script src="https://dhstatic.hum.uu.nl/name-face/main.js">
+        <script src="https://localhost:3000/name-face/static-files/main.js">
 </script>
-        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/question-style.css">
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
 <style type="text/css">.textarea{
     display: None;
   }
@@ -537,16 +647,376 @@ $(document).ready(function(){
     <relevance><![CDATA[1]]></relevance>
     <modulename/>
 </row>
+    
+    <row>
+    <qid><![CDATA[1009]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[8]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1009]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v6";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1010]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[9]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1010]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v7";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1011]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[10]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1011]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v8";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1012]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[11]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1012]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v9";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1013]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[12]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1013]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v10";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1014]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[13]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1014]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v11";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1015]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[14]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1015]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v12";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1016]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[15]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1016]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v13";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1017]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[16]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1017]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v14";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
+    
+    <row>
+    <qid><![CDATA[1018]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[9000]]></sid>
+    <gid><![CDATA[17]]></gid>
+    <type><![CDATA[T]]></type>
+    <title><![CDATA[vr1018]]></title>
+    <question><![CDATA[
+        <p>Welke voornaam past het best bij het gezicht?</p>
+        <script src="https://localhost:3000/name-face/static-files/main.js">
+</script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/question-style.css">
+<style type="text/css">.textarea{
+    display: None;
+  }
+
+</style>
+<script>
+selection =  {INSERTANS:9000X1X1000}
+id = "v15";
+$(document).ready(function(){
+	generateQuestion(id, selection[id])
+})
+</script>]]></question>
+    <preg/>
+    <help/>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[Y]]></mandatory>
+    <question_order><![CDATA[1]]></question_order>
+    <language><![CDATA[en]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+</row>
 
 
 <row>
-    <qid><![CDATA[1009]]></qid>
+    <qid><![CDATA[1019]]></qid>
     <parent_qid>0</parent_qid>
     <sid><![CDATA[9000]]></sid>
-    <gid><![CDATA[8]]></gid>
+    <gid><![CDATA[18]]></gid>
     <type>L</type>
     <title>Eindvraag</title>
-    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://dhstatic.hum.uu.nl/name-face/personal-questions-style.css>]]></question>
+    <question><![CDATA[Herkende je een van de mensen op de foto? <link rel="stylesheet" type="text/css" href=https://localhost:3000/name-face/static-files/personal-questions-style.css>]]></question>
     <preg/>
     <help/>
     <other>N</other>
@@ -559,16 +1029,16 @@ $(document).ready(function(){
 </row>
 
 <row>
-    <qid><![CDATA[1010]]></qid>
+    <qid><![CDATA[1020]]></qid>
     <parent_qid>0</parent_qid>
     <sid><![CDATA[9000]]></sid>
-    <gid><![CDATA[9]]></gid>
+    <gid><![CDATA[19]]></gid>
     <type>L</type>
     <title>Score</title>
     <question><![CDATA[
-        <script src="https://dhstatic.hum.uu.nl/name-face/main.js"></script>
-        <script src="https://dhstatic.hum.uu.nl/name-face/questions.js"></script>
-        <link rel="stylesheet" type="text/css" href="https://dhstatic.hum.uu.nl/name-face/score-style.css">
+        <script src="https://localhost:3000/name-face/static-files/main.js"></script>
+        <script src="https://localhost:3000/name-face/static-files/questions.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://localhost:3000/name-face/static-files/score-style.css">
         <script>
         answers = {
             
@@ -581,6 +1051,26 @@ $(document).ready(function(){
             "v4": "{INSERTANS:9000X6X1007}",
             
             "v5": "{INSERTANS:9000X7X1008}",
+            
+            "v6": "{INSERTANS:9000X8X1009}",
+            
+            "v7": "{INSERTANS:9000X9X1010}",
+            
+            "v8": "{INSERTANS:9000X10X1011}",
+            
+            "v9": "{INSERTANS:9000X11X1012}",
+            
+            "v10": "{INSERTANS:9000X12X1013}",
+            
+            "v11": "{INSERTANS:9000X13X1014}",
+            
+            "v12": "{INSERTANS:9000X14X1015}",
+            
+            "v13": "{INSERTANS:9000X15X1016}",
+            
+            "v14": "{INSERTANS:9000X16X1017}",
+            
+            "v15": "{INSERTANS:9000X17X1018}",
         }
 
         $(document).ready(function(){

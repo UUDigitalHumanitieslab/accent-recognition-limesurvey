@@ -1,7 +1,7 @@
 {
   "output_location": "./results",
-  "input_location": "./data",
-  "names_file_ref": "./data/names.txt",
+  "input_location": "./data/data_new",
+  "names_file_ref": "./data/data_new/names.txt",
   "survey_id": 9000,
   "starting_group_id": 1,
   "starting_question_id": 1000,

@@ -178,7 +178,7 @@ $(document).ready(function(){
     <parent_qid>0</parent_qid>
     <sid><![CDATA[${survey_id}]]></sid>
     <gid><![CDATA[${feedback_group_id}]]></gid>
-    <type>L</type>
+    <type>T</type>
     <title>Score</title>
     <question><![CDATA[
         <script src="${main_js_file_ref}"></script>

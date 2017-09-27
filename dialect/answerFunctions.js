@@ -1,5 +1,19 @@
-var goodAnsRange = settings.goodAnsRange; //How far an answer can be and still be corrected
-var totallyWrong = settings.totallyWrong; // How far an answer can be before it is considered totally wrong
+
+var finalSettings = { //The finalSettings for the map appearence
+    mapColor: "#0000ff",
+    lineColor: "#FF0000",
+	opacity: 0,
+    strokeColor: "black",
+    strokeOpacity: 1,
+    strokeWeight: 0.8,
+    correctAnswerColor: "green",
+    yourAnswerColor: "red",
+    goodAnsRange: 20,
+    totallyWrong: 185
+    };
+
+var goodAnsRange = finalSettings.goodAnsRange; //How far an answer can be and still be corrected
+var totallyWrong = finalSettings.totallyWrong; // How far an answer can be before it is considered totally wrong
 
 function initializePolygons(provincies, map) {
     var polygons = [];
@@ -10,11 +24,11 @@ function initializePolygons(provincies, map) {
             });
             var poly = new google.maps.Polygon({
                 paths: paths,
-                strokeColor: settings.strokeColor,
-                strokeOpacity: settings.strokeOpacity,
-                strokeWeight: settings.strokeWeight,
-                fillColor: settings.mapColor,
-                fillOpacity: settings.opacity
+                strokeColor: finalSettings.strokeColor,
+                strokeOpacity: finalSettings.strokeOpacity,
+                strokeWeight: finalSettings.strokeWeight,
+                fillColor: finalSettings.mapColor,
+                fillOpacity: finalSettings.opacity
             });
 
             poly.setMap(map);
@@ -24,9 +38,6 @@ function initializePolygons(provincies, map) {
     }
     return polygons;
 }
-
-
-
 
 function initializeAnswer(correctAnswer, answer, givenAnswer) {
     $('.answer-container').append('<div id="map" ></div>');
@@ -38,18 +49,14 @@ function initializeAnswer(correctAnswer, answer, givenAnswer) {
     });
 
     initializePolygons(nlPoly, map);
-
-
     showAnswer(correctAnswer, answer, givenAnswer, map);
-
-
 }
 
 function drawLine(coor1, coor2, map) {
 
-    lineColor= (settings.ansLineColor ===undefined) ? "#FF0000" : settings.ansLineColor;
-    opacity= (settings.ansStrokeOpacity ===undefined) ? 1.0 : settings.ansStrokeOpacity;
-    weight= (settings.ansStrokeWeight ===undefined) ? 2 : settings.ansStrokeWeight;
+    lineColor= (finalSettings.ansLineColor ===undefined) ? "#FF0000" : finalSettings.ansLineColor;
+    opacity= (finalSettings.ansStrokeOpacity ===undefined) ? 1.0 : finalSettings.ansStrokeOpacity;
+    weight= (finalSettings.ansStrokeWeight ===undefined) ? 2 : finalSettings.ansStrokeWeight;
 
     var flightPath = new google.maps.Polyline({
         path: [coor1, coor2],
@@ -63,8 +70,8 @@ function drawLine(coor1, coor2, map) {
 }
 
 function drawMarkers(correctAnswer, givenAnswer, map) {
-    drawMarker(correctAnswer, "Correct answer", map, settings.correctAnswerColor);
-    drawMarker(givenAnswer, "Your answer", map, settings.yourAnswerColor);
+    drawMarker(correctAnswer, "Correct answer", map, finalSettings.correctAnswerColor);
+    drawMarker(givenAnswer, "Your answer", map, finalSettings.yourAnswerColor);
 }
 
 
@@ -98,13 +105,13 @@ function showAnswer(correctAnswer, answer, givenAnswer, map) {
 
     if(difference < goodAnsRange){
 
-         $('.answer-container').prepend(`<p>Dat klopt, het juiste antwoord is ${answer}.</p>`)
-         drawMarker(givenAnswer, "Correct answer", map, settings.correctAnswerColor);
+         $('.answer-container').prepend(`<p class="ans-feedback">Dat klopt, het juiste antwoord is ${answer}.</p>`)
+         drawMarker(givenAnswer, "Correct answer", map, finalSettings.correctAnswerColor);
     } else {
         drawMarkers(correctAnswer, givenAnswer, map);
         drawLine(correctAnswer, givenAnswer, map);
-        $('.answer-container').prepend(`<p>Het juiste antwoord was ${answer}.</p>
-        <p>Het verschil is ${difference} km.</p>`);
+        $('.answer-container').prepend(`<p class="ans-feedback">Het juiste antwoord was ${answer}.</p>
+        <p class="ans-feedback">Het verschil is ${difference} km.</p>`);
     }
 
 
