@@ -6,18 +6,18 @@ it also contains helper classes to generate surveys from data.
 ##Getting Started
 You will need npm installed and preferable nodemon.
 
-##Overview of scripts
+## Overview of scripts
 
-###Generating Surveys
+### Generating Surveys
 To generate surveys see the package survey_generator. In particular start with the survey_creator.py file.
 It explains what you need to provide/implement to create a survey.
 
 
-###Analysis
+### Analysis
 in name-face/analysis are functions to clean up the results of the survey
 
 
-###static-files
+### Static-files
 In the static files folder is the code that needs to be staticly served on a uu server to make the surveys work
 
 
