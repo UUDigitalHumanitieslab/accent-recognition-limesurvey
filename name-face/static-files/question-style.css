@@ -1,26 +1,38 @@
-.answer-container{
+.answer-container {
     text-align: center;
-     font-size: 24px;
+    font-size: 24px;
 
 }
-.asterisk{
+
+.asterisk {
     display: None;
 }
 
-.question-text{
+.question-text {
     font-size: 24px;
 }
 
-.ans-style{
-     float: left;
+.ans-style {
+    float: left;
 }
 
-.form-control.textarea.empty{
+.form-control.textarea.empty {
     display: none;
 }
 
+#navigator-container {
+    margin-top: 0px;
+    padding-top: 0px;
+}
 
-#navigator-container{
-    margin-top:0px;
-    padding-top:0px;
+#loadallbtnlink {
+    display: None
+}
+
+#clearallbtnlink {
+    display: None
+}
+
+#saveallbtnlink {
+    display: None
 }

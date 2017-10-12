@@ -1,8 +1,19 @@
-.group-description, .answer-container, .question-help-container{
+.group-description, .answer-container, .question-help-container {
     display: none;
 }
 
-
-.feedback{
+.feedback {
     font-size: 24px;
+}
+
+#loadallbtnlink {
+    display: None
+}
+
+#clearallbtnlink {
+    display: None
+}
+
+#saveallbtnlink {
+    display: None
 }

@@ -14,13 +14,6 @@ class AbstractGenerator:
         """
         Generates files
         :param parsing_result: a dict containing the following information:
-        the questions
-        the files
-        starting_question_id
-        starting_group_id
-        survey_id
-        main_js_file_ref
-        question_js_file_ref
         :param input_location:
         :param output_location:
         :return:

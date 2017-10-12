@@ -1,5 +1,5 @@
-var ROOT =  "https://localhost:3000/name-face/static-files/";
-//https://dhstatic.hum.uu.nl/name-face/
+var ROOT =  "https://dhstatic.hum.uu.nl/name-face/";
+//
 var imgDimensions = [300, 450];
 
 //Questions structure: {Question_id : {A: [name1, name2, name3], B: [name1, name2, name3], realName: name}, Question_id2: ....}
@@ -64,7 +64,7 @@ function getFeedback(questions, givenAnswers){
     if(score >= 6){
         msg = "Je hebt beter gekozen dan kans."
     } else {
-        msg = "Je hebt slechter gekozen dan kans."
+        msg = "Je hebt niet boven kans gekozen."
     }
     return msg;
 }

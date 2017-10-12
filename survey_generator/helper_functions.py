@@ -19,16 +19,6 @@ def create_folder(location):
     if not os.path.exists(location):
         os.makedirs(location)
 
-
-def normalize_file_and_return_lines(file_ref, normalization_functions):
-    """
-    Performs the normalization functions on given file
-    :param file_ref: a reference to the file
-    :param normalization_functions: a list containing the characters to be deleted
-    :return: The normalized lines from the file
-    """
-    pass
-
 def remove_white_lines(string):
     """
     removes all the white lines from a string and returns the result

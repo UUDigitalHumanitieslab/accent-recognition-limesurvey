@@ -1,6 +1,6 @@
 import pytest
-from ..helper_functions import *
 
+from survey_generator.helper_functions import *
 
 white_lines_test_cases = [
     {

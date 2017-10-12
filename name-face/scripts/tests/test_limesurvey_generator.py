@@ -1,9 +1,11 @@
-import pytest
-import json
-from ..generators import *
 import glob
+
+import pytest
 from PIL import ImageChops, Image
+
+from survey_generator.generators import *
 from .fill_template_test_cases import *
+
 
 def load_json_from_file(file_ref):
     info =  None

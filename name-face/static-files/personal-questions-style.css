@@ -1,18 +1,40 @@
-.answer-container{
-     font-size: 24px;
-}
-.asterisk{
-    display: None;
-}
-
-.question-text{
+.answer-container {
     font-size: 24px;
 }
 
-.label-text{
+.asterisk {
+    display: None;
+}
+
+.question-text {
+    font-size: 24px;
+}
+
+.label-text {
     margin-top: -34px;
 }
 
-.form-control.text.input-sm.empty{
+.form-control.text.input-sm.empty {
     margin-top: 10px;
+}
+
+.col-xs-12.save-all {
+    display: None;
+}
+
+#navigator-container {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#loadallbtnlink {
+    display: None
+}
+
+#clearallbtnlink {
+    display: None
+}
+
+#saveallbtnlink {
+    display: None
 }

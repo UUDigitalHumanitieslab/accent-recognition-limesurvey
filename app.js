@@ -1,3 +1,8 @@
+/**
+ * Node app to serve static files
+ * @type {*}
+ */
+
 var express = require('express');
 var path = require('path');
 https = require('https');
