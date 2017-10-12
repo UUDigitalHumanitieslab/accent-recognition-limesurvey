@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5af8202b-247b-4b92-abf5-851369390575" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../survey_generator/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../name-face/results/survey_9000.lss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../name-face/scripts/generators.py" afterPath="$PROJECT_DIR$/../survey_generator/generators.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../name-face/scripts/helper_functions.py" afterPath="$PROJECT_DIR$/../survey_generator/helper_functions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../name-face/scripts/parser.py" afterPath="$PROJECT_DIR$/../survey_generator/parser.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../name-face/scripts/providers.py" afterPath="$PROJECT_DIR$/../survey_generator/providers.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../name-face/scripts/survey_creator.py" afterPath="$PROJECT_DIR$/../survey_generator/survey_creator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../name-face/static-files/cp_to_server.sh" afterPath="$PROJECT_DIR$/../name-face/sh_scripts/cp_to_server.sh" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../temp.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.gitignore" afterPath="$PROJECT_DIR$/../.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../README.md" afterPath="$PROJECT_DIR$/../README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../app.js" afterPath="$PROJECT_DIR$/../app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/data/deploy-settings.json" afterPath="$PROJECT_DIR$/../name-face/data/deploy-settings.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/scripts/generate_survey.py" afterPath="$PROJECT_DIR$/../name-face/scripts/generate_survey.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/scripts/tests/test_helper_functions.py" afterPath="$PROJECT_DIR$/../name-face/scripts/tests/test_helper_functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/scripts/tests/test_limesurvey_generator.py" afterPath="$PROJECT_DIR$/../name-face/scripts/tests/test_limesurvey_generator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/intro-question-style.css" afterPath="$PROJECT_DIR$/../name-face/static-files/intro-question-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/main.js" afterPath="$PROJECT_DIR$/../name-face/static-files/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/personal-questions-style.css" afterPath="$PROJECT_DIR$/../name-face/static-files/personal-questions-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/question-style.css" afterPath="$PROJECT_DIR$/../name-face/static-files/question-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/questions.js" afterPath="$PROJECT_DIR$/../name-face/static-files/questions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../name-face/static-files/score-style.css" afterPath="$PROJECT_DIR$/../name-face/static-files/score-style.css" />
     </list>
     <ignored path="$USER_HOME$/.tmp/" />
     <ignored path="$USER_HOME$/temp/" />
     <ignored path="$USER_HOME$/tmp/" />
     <ignored path="$USER_HOME$/.idea/" />
-    <ignored path="$PROJECT_DIR$/../../../../.idea/" />
+    <ignored path="/.idea/" />
+    <ignored path="$PROJECT_DIR$/../../.idea/" />
     <ignored path="$PROJECT_DIR$/../.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,28 +26,7 @@
     <favorites_list name="drongo-lime-survey" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cp_to_server.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dialect/cp_to_server.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="answer.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../dialect/answer.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/name-face/data/names.txt" />
-        <option value="$USER_HOME$/dialect/settings.js" />
         <option value="$USER_HOME$/dialect/scoreFunctions.js" />
         <option value="$USER_HOME$/dialect/tests.html" />
         <option value="$USER_HOME$/dialect/tests.js" />
@@ -155,28 +116,30 @@
         <option value="$USER_HOME$/dialect/scoreFunctions.js" />
         <option value="$USER_HOME$/temp.txt" />
         <option value="$USER_HOME$/dialect/scoreFunctions.js" />
-        <option value="$PROJECT_DIR$/../../../../name-face/data/develop-settings.json" />
-        <option value="$PROJECT_DIR$/../../../../name-face/data/data_new/names.txt" />
-        <option value="$PROJECT_DIR$/../../../../name-face/name-face-makos/questions.mako" />
-        <option value="$PROJECT_DIR$/../../../../name-face/static-files/intro-question-style.css" />
-        <option value="$PROJECT_DIR$/../../../../name-face/static-files/personal-questions-style.css" />
-        <option value="$PROJECT_DIR$/../../../../name-face/data/deploy-settings.json" />
-        <option value="$PROJECT_DIR$/../../../../name-face/scripts/generate_survey.py" />
-        <option value="$PROJECT_DIR$/../../../../name-face/static-files/main.js" />
-        <option value="$PROJECT_DIR$/../../../../name-face/static-files/cp_to_server.sh" />
+        <option value="/name-face/data/develop-settings.json" />
+        <option value="/name-face/data/data_new/names.txt" />
+        <option value="/name-face/name-face-makos/questions.mako" />
+        <option value="/name-face/static-files/intro-question-style.css" />
+        <option value="/name-face/static-files/personal-questions-style.css" />
+        <option value="/name-face/data/deploy-settings.json" />
+        <option value="/name-face/scripts/generate_survey.py" />
+        <option value="/name-face/static-files/main.js" />
+        <option value="/name-face/static-files/cp_to_server.sh" />
         <option value="$USER_HOME$/name-face/static-files/personal-questions-style.css" />
         <option value="$USER_HOME$/name-face/static-files/question-style.css" />
         <option value="$USER_HOME$/name-face/static-files/score-style.css" />
         <option value="$USER_HOME$/name-face/static-files/intro-question-style.css" />
         <option value="$USER_HOME$/name-face/static-files/main.js" />
-        <option value="$PROJECT_DIR$/../app.js" />
-        <option value="$PROJECT_DIR$/../name-face/scripts/generators.py" />
-        <option value="$PROJECT_DIR$/../name-face/scripts/helper_functions.py" />
-        <option value="$PROJECT_DIR$/../name-face/scripts/survey_creator.py" />
-        <option value="$PROJECT_DIR$/../name-face/analysis/parse_functions.py" />
+        <option value="$PROJECT_DIR$/../../app.js" />
+        <option value="$PROJECT_DIR$/../../name-face/scripts/generators.py" />
+        <option value="$PROJECT_DIR$/../../name-face/scripts/helper_functions.py" />
+        <option value="$PROJECT_DIR$/../../name-face/scripts/survey_creator.py" />
+        <option value="$PROJECT_DIR$/../../name-face/analysis/parse_functions.py" />
+        <option value="$PROJECT_DIR$/../../README.md" />
+        <option value="$PROJECT_DIR$/../../survey_generator/survey_creator.py" />
+        <option value="$PROJECT_DIR$/../../name-face/scripts/generate_survey.py" />
+        <option value="$PROJECT_DIR$/../.gitignore" />
         <option value="$PROJECT_DIR$/../README.md" />
-        <option value="$PROJECT_DIR$/../survey_generator/survey_creator.py" />
-        <option value="$PROJECT_DIR$/../name-face/scripts/generate_survey.py" />
       </list>
     </option>
   </component>
@@ -196,10 +159,10 @@
     <handled-path value="$PROJECT_DIR$/../node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="-4" />
-    <option name="width" value="2495" />
-    <option name="height" value="1444" />
+    <option name="x" value="75" />
+    <option name="y" value="34" />
+    <option name="width" value="2493" />
+    <option name="height" value="1408" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -217,7 +180,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,12 +202,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="name-face" />
+              <option name="myItemId" value="encryption" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drongo-lime-survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drongo-lime-survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="question" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drongo-lime-survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="." />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drongo-lime-survey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kml-google-maps" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,10 +303,10 @@
       <recent name="$USER_HOME$/name-face/static-files" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../survey_generator" />
-      <recent name="$PROJECT_DIR$/../name-face/sh_scripts" />
-      <recent name="$PROJECT_DIR$/../../../../name-face/static-files/img" />
-      <recent name="$PROJECT_DIR$/../../../../name-face/static-files" />
+      <recent name="$PROJECT_DIR$/../../survey_generator" />
+      <recent name="$PROJECT_DIR$/../../name-face/sh_scripts" />
+      <recent name="/name-face/static-files/img" />
+      <recent name="/name-face/static-files" />
       <recent name="$USER_HOME$/name-face/static-files" />
     </key>
   </component>
@@ -473,7 +508,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="2495" height="1444" extended-state="6" />
+    <frame x="75" y="34" width="2493" height="1408" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976282" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -483,7 +518,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1759519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17569193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -541,35 +576,42 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/dialect/feedback.txt" />
-    <entry file="file://$USER_HOME$/temp.txt" />
-    <entry file="file://$USER_HOME$/dialect/tests.js" />
-    <entry file="file://$USER_HOME$/dialect/scoreFunctions.js" />
-    <entry file="file://$USER_HOME$/name-face/scripts/generators.py" />
-    <entry file="file://$USER_HOME$/name-face/scripts/helper_functions.py" />
-    <entry file="file://$USER_HOME$/name-face/scripts/parser.py" />
-    <entry file="file://$USER_HOME$/name-face/scripts/providers.py" />
-    <entry file="file://$USER_HOME$/name-face/scripts/survey_creator.py" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/data/names.txt" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/name-face-makos/questions.mako" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/data/data_new/names.txt" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/static-files/question-style.css" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/static-files/intro-question-style.css" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/static-files/personal-questions-style.css" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/static-files/questions.js" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/static-files/questions.js" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/data/develop-settings.json" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/data/deploy-settings.json" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/scripts/generate_survey.py" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/results/survey_9000.lss" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/static-files/main.js" />
-    <entry file="file://$PROJECT_DIR$/../../../../name-face/static-files/cp_to_server.sh" />
+    <entry file="file:///name-face/static-files/questions.js" />
+    <entry file="file:///name-face/data/develop-settings.json" />
+    <entry file="file:///name-face/data/deploy-settings.json" />
+    <entry file="file:///name-face/scripts/generate_survey.py" />
+    <entry file="file:///name-face/results/survey_9000.lss" />
+    <entry file="file:///name-face/static-files/main.js" />
+    <entry file="file:///name-face/static-files/cp_to_server.sh" />
     <entry file="file://$USER_HOME$/name-face/static-files/personal-questions-style.css" />
     <entry file="file://$USER_HOME$/name-face/static-files/question-style.css" />
     <entry file="file://$USER_HOME$/name-face/static-files/score-style.css" />
     <entry file="file://$USER_HOME$/name-face/static-files/intro-question-style.css" />
     <entry file="file://$USER_HOME$/name-face/static-files/main.js" />
-    <entry file="file://$PROJECT_DIR$/../name-face/.gitignore">
+    <entry file="file://$PROJECT_DIR$/../../name-face/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/tests/test_information.json" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/tests/test_helper_functions.py" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/tests/test_limesurvey_generator.py" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/tests/fill_template_test_cases.py" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/tests/get_names_out_of_line_tests.json" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/static-files/example_names.js" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/sh_scripts/cp_to_server.sh" />
+    <entry file="file://$PROJECT_DIR$/../../temp.txt" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/analysis/parse_functions.py" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/analysis/parse_results.py" />
+    <entry file="file://$PROJECT_DIR$/../../README.md" />
+    <entry file="file://$PROJECT_DIR$/../../survey_generator/parser.py" />
+    <entry file="file://$PROJECT_DIR$/../../survey_generator/providers.py" />
+    <entry file="file://$PROJECT_DIR$/../../survey_generator/helper_functions.py" />
+    <entry file="file://$PROJECT_DIR$/../../survey_generator/survey_creator.py" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/data/deploy-settings.json" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/data/develop-settings.json" />
+    <entry file="file://$PROJECT_DIR$/../../name-face/scripts/generate_survey.py" />
+    <entry file="file://$PROJECT_DIR$/../../survey_generator/generators.py" />
+    <entry file="file://$PROJECT_DIR$/../../app.js" />
+    <entry file="file://$PROJECT_DIR$/../../dialect/cp_to_server.txt" />
+    <entry file="file://$PROJECT_DIR$/../../dialect/answer.txt" />
+    <entry file="file://$PROJECT_DIR$/../encryption/csr.pem">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -577,7 +619,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/scripts/tests/test_information.json">
+    <entry file="file://$PROJECT_DIR$/../encryption/key.pem">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -585,47 +627,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/scripts/tests/test_helper_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/scripts/tests/test_limesurvey_generator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/scripts/tests/fill_template_test_cases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/scripts/tests/get_names_out_of_line_tests.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/static-files/example_names.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/sh_scripts/cp_to_server.sh">
+    <entry file="file://$PROJECT_DIR$/../encryption/cert.pem">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -635,6 +637,81 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../temp.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3114">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../name-face/sh_scripts/cp_to_server.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dialect/answerFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../name-face/analysis/parse_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dialect/examples/kml-to-poly/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dialect/examples/kml-google-maps/poly.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dialect/answer.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -643,123 +720,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../name-face/analysis/parse_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/analysis/parse_results.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../survey_generator/parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../survey_generator/providers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../survey_generator/helper_functions.py">
+    <entry file="file://$PROJECT_DIR$/../dialect/examples/kml-to-poly/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../survey_generator/survey_creator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/data/deploy-settings.json">
+    <entry file="file://$PROJECT_DIR$/../dialect/examples/kml-google-maps/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/data/develop-settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../name-face/scripts/generate_survey.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#49#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../survey_generator/generators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dialect/cp_to_server.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dialect/answer.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding />
         </state>
       </provider>
