@@ -1,7 +1,7 @@
 # drongo-lime-surveys
 Scripts for lime survey for Drongo festival 2017
-In particular the js scripts for the dialect survey and what's in the face survey.
-it also contains helper classes to generate surveys from data.
+It contains in particular the static files that are needed to make the surveys work.
+It also contains helper classes to generate surveys from data.
 
 ## Getting Started
 You will need npm installed and preferable nodemon.
