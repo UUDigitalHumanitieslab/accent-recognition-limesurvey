@@ -92,10 +92,9 @@ function emptyAnswer(){
 
 
 function initializeQuestion(audioRef, autoplay){
-    console.log("initialize question")
     $(document).ready(function(){
         var answerContainer = $('.answer-container')
-        answerContainer.append('<div id="map" >This is some text</div>')
+        answerContainer.append('<div id="map" ></div>')
         answerContainer.prepend(
             `<h3>Audio</h3> <audio controls ${autoplay?"autoPlay":""}> <source src=${audioRef} type="audio/ogg"> </audio>`)
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -109,7 +108,6 @@ function initializeQuestion(audioRef, autoplay){
         var polygons = initializePolygons(nlPoly, map);
         addEvents(polygons, map);
         var warningtxt = $("#bootstrap-alert-box-modal .modal-body>p")
-        console.log(warningtxt)
         warningtxt.text("Warning no marker placed.");
 
 
