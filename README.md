@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/90836834.svg)](https://zenodo.org/doi/10.5281/zenodo.12653011)
+
 # The online map-based accent-recognition task: a new pathway for perceptual dialectology
 
 Perceptual dialectologists have come up with diverse methods to investigate how listeners represent the spatial structure of language variation. The diversity in methodological approaches however has made it difficult to generalize perceptual boundaries between language varieties and perceptual isoglosses for any given variety over different speakers, limiting their interpretability. 
