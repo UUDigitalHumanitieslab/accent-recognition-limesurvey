@@ -1,0 +1,24 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: "The online map-based accent-recognition task: a new pathway for perceptual dialectology"
+message: >-
+  Map-based accent recognition experiment using Limesurvey
+type: software
+authors:
+  - name: >-
+      Research Software Lab, Centre for Digital Humanities,
+      Utrecht University
+    country: NL
+    city: Utrecht
+    website: >-
+      https://cdh.uu.nl/centre-for-digital-humanities/research-software-lab/
+repository-code: >-
+  https://github.com/UUDigitalHumanitieslab/accent-recognition
+keywords:
+  - limesurvey
+  - Dutch
+  - dialectology
+  - questionnaire
+license: BSD-3-Clause
